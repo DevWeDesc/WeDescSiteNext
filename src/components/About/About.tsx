@@ -40,11 +40,15 @@ export const About = () => {
           className="absolute pt-[360px] w-full "
           alt=""
         />
-        <Image src={Rectangle} className="absolute pt-[402px] w-full " alt="" />
+        <Image
+          src={Rectangle}
+          className="absolute pt-[402px] 2xl:max-h-[4000px] w-full "
+          alt=""
+        />
 
         <Image
           src={Rectangle}
-          className="absolute lg:pt-[1500px] 2xl:pt-[1002px] w-full "
+          className="absolute lg:pt-[1500px] 2xl:hidden w-full "
           alt=""
         />
 

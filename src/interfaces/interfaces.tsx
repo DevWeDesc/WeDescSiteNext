@@ -29,7 +29,7 @@ export interface ICardsPlans {
 export interface ICardPlans {
   imagePlans: string;
   colorImage: string;
-  image: string;
+  image: string | StaticImageData;
   titleImage: string;
   title: string;
   children: ReactNode;
