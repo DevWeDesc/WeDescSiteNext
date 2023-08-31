@@ -1,10 +1,11 @@
 import { Header } from "@/components/Header/Header";
-import Image from "next/image";
+import { SubHeader } from "@/components/SubHeader/SubHeader";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       <Header></Header>
+      <SubHeader />
     </main>
   );
 }
