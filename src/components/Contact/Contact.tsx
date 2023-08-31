@@ -39,7 +39,7 @@ export const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="w-[100px] h-[100px] right-[47%] mt-[80px] rotate-45 bg-[#FECC09] absolute"></div>
+        <div className="w-[100px] h-[100px] 2xl:right-[47%] mt-[80px] rotate-45 bg-[#FECC09] absolute lg:right-[46.5%]"></div>
         <div className="bg-[#FECC09] p-20 flex flex-col pr-40 gap-2">
           <h2 className="text-2xl">Nome:</h2>
           <input

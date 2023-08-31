@@ -1,4 +1,4 @@
-//import { SwiperCase } from "../SwiperCase/SwiperCase";
+import { SwiperCase } from "../SwiperCase/SwiperCase";
 import LinearWithValueLabel from "../Progress/Progress";
 import CircularWithValueLabel from "../ValueProgress/ValueProgress";
 
@@ -21,7 +21,7 @@ export const Cases = () => {
             elevar negócios por meio da excelência tecnológica.
           </p>
         </div>
-        <div className="flex w-full pt-7">{/* <SwiperCase /> */}</div>
+        <div className="flex w-full pt-7">{<SwiperCase />}</div>
       </div>
       <div className="bg-[#09001C] w-full flex flex-col h-[778px] items-center text-white justify-evenly">
         <div className="flex w-full justify-center items-center gap-4">
