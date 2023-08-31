@@ -39,7 +39,7 @@ export const Coments = () => {
                 <div key={index}>
                   <CardComents
                     Avaliation={coment.Avaliation}
-                    Img={coment.Img}
+                    Img={coment.Img as string}
                     Title={coment.Title}
                     Description={coment.Description}
                   />
