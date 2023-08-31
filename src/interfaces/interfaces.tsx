@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import { ReactNode } from "react";
 
 export interface LiProps {
@@ -9,8 +10,8 @@ export interface LiProps {
 }
 
 export interface CardsProps {
-  cloud: string;
-  image: string;
+  cloud: string | StaticImageData;
+  image: string | StaticImageData;
   title: string;
   description: string;
   Bgcolor: string;

@@ -2,6 +2,7 @@ import BoxImage from "@/images/caixinha.png";
 import lineService from "@/images/Vector 10.png";
 import Rectangle from "@/images/Rectangle 42.png";
 import Image from "next/image";
+import { Services } from "../Services/Services";
 
 export const About = () => {
   return (
@@ -47,7 +48,7 @@ export const About = () => {
           alt=""
         />
 
-        {/* <Services /> */}
+        <Services />
       </div>
     </div>
   );
