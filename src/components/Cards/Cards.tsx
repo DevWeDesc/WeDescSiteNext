@@ -23,7 +23,7 @@ export const Cards = ({
         </div>
         <div className="pt-[30px] text-center text-white px-[36px] flex flex-col gap-8">
           <p className="font-bold">{title}</p>
-          <p>{description}</p>
+          <p className="pb-20">{description}</p>
         </div>
       </div>
       <Image
