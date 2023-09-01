@@ -10,7 +10,7 @@ export const CardPlans = ({
   colorImage,
 }: ICardPlans) => {
   return (
-    <div className=" mt-6 min-h-[590px] pb-[100px] w-[25%] rounded-[20px] flex flex-col items-start bg-transparent backdrop-brightness-125">
+    <div className=" mt-6 min-h-[590px] pb-[100px] w-[25%] rounded-[20px] flex flex-col items-start bg-transparent backdrop-brightness-125 hover:scale-105 transition-[10s]">
       <div className="mt-10 py-2">
         <p
           className="px-4 w-auto py-2 rounded-tr-full rounded-br-full font-bold"

@@ -9,7 +9,10 @@ export const CardComents = ({
   Avaliation,
 }: ICardComents) => {
   return (
-    <div className="w-[379px] h-[302px] p-10 rounded-lg bg-[#262626] flex flex-col gap-6 text-white">
+    <div
+      style={{ boxShadow: " 10px 10px 15px 10px rgba(0, 0, 0, 0.2)" }}
+      className="w-[379px] h-[302px] ml-4 my-[38px] rounded-lg p-10 bg-[#262626] flex flex-col gap-6 text-white "
+    >
       <div className="flex items-center gap-2">
         <Image
           width={50}

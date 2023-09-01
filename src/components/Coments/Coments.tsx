@@ -35,7 +35,7 @@ export const Coments = () => {
               dragConstraints={{ right: 0, left: -width }}
             >
               {ComentsData.map((coment, index) => (
-                <div key={index}>
+                <div key={index} className="hover:scale-105 transition-[10s] ">
                   <CardComents
                     Avaliation={coment.Avaliation}
                     Img={coment.Img}
