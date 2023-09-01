@@ -53,17 +53,17 @@ export const Contact = () => {
         </div>
         <div className="w-[100px] h-[100px] 2xl:right-[47%] mt-[80px] rotate-45 bg-[#FECC09] absolute lg:right-[46.5%]"></div>
         <div className="bg-[#FECC09] p-20 flex flex-col pr-40 gap-2">
-          <h2 className="text-2xl">Nome:</h2>
+          <p className="text-2xl">Nome:</p>
           <input
             className="bg-transparent py-2 px-2 border-[1px] border-black outline-none rounded-lg"
             type="text"
           />
-          <h2 className="text-2xl">E-mail:</h2>
+          <p className="text-2xl">E-mail:</p>
           <input
             className="bg-transparent py-2 px-2 border-[1px] border-black outline-none rounded-lg"
             type="text"
           />
-          <h2 className="text-2xl">Sua Mensagem:</h2>
+          <p className="text-2xl">Sua Mensagem:</p>
           <textarea
             name=""
             id=""

@@ -78,9 +78,9 @@ export default function SwiperPlans() {
                 alt="Imagem de cada sessão do card"
               />
               <div>
-                <h2 className="text-[18px] font-bold text-left px-2">
+                <h4 className="text-[18px] font-bold text-left px-2">
                   {info.title}
-                </h2>
+                </h4>
                 <p className="text-base px-2 text-left">{info.description}</p>
               </div>
             </SwiperSlide>

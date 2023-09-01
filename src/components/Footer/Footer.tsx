@@ -13,7 +13,7 @@ export const Footer = () => {
           />
           <div className="flex flex-col text-[18px]">
             {" "}
-            <h2 className="text-2xl font-bold">Explorar</h2>
+            <h3 className="text-2xl font-bold">Explorar</h3>
             <p>
               <a href="#Init" title="Inicio"> Inicio</a>
             </p>
@@ -29,7 +29,7 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col text-[18px]">
             {" "}
-            <h2 className="text-2xl font-bold">Legal</h2>
+            <h3 className="text-2xl font-bold">Legal</h3>
             <p>Termos</p>
             <p>Politica de privacidade</p>
           </div>
