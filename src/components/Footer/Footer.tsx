@@ -15,16 +15,16 @@ export const Footer = () => {
             {" "}
             <h2 className="text-2xl font-bold">Explorar</h2>
             <p>
-              <a href="#Init"> Inicio</a>
+              <a href="#Init" title="Inicio"> Inicio</a>
             </p>
             <p>
-              <a href="#Service"> Serviços</a>
+              <a href="#Service" title="Serviços"> Serviços</a>
             </p>
             <p>
-              <a href="#Plans">Planos de atendimento</a>
+              <a href="#Plans" title="Planos">Planos de atendimento</a>
             </p>
             <p>
-              <a href="#Contact"> Contato </a>
+              <a href="#Contact" title="Contato"> Contato </a>
             </p>
           </div>
           <div className="flex flex-col text-[18px]">
