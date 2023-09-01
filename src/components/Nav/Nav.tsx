@@ -55,7 +55,11 @@ export const Nav = () => {
         />
 
         <Li selected={selected} onClick={() => setSelected("Inicio")}>
-          <a href="https://we-desc.vercel.app/" target="_blank">
+          <a
+            href="https://we-desc.vercel.app/"
+            title="WeDesc Code"
+            target="_blank"
+          >
             <button className="h-[40px] font-bold flex items-center gap-[4.27px] border-solid border-[1px] border-black py-[7px] px-[9px] rounded-md transition-all hover:bg-gray-100">
               WeDesc Code
               <Image src={ImgButton} alt="" width={17} height={17} />
