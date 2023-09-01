@@ -9,7 +9,11 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
     <li>
       <div>
         <li className="pr-10 cursor-pointer" onClick={onClick}>
-          <a href={Ref} title={text}>
+          <a
+            href={Ref}
+            title={text}
+            className="hover:text-[17px] transition-[10s]"
+          >
             {text}
             {children}
           </a>
