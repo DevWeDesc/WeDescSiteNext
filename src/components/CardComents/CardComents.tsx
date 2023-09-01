@@ -16,7 +16,7 @@ export const CardComents = ({
           height={50}
           src={Img}
           className="rounded-full w-[74px] h-[74px]"
-          alt=""
+          alt="Imagem da empresa do comentário"
         />
         <div className="flex flex-col text-white gap-1">
           <h2 className="text-xl text-gray-200">{Title}</h2>

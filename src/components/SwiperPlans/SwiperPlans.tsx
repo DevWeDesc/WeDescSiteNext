@@ -43,7 +43,7 @@ export default function SwiperPlans() {
   return (
     <>
       <div className="h-full w-full flex flex-col p-10 border-[4px] max-w-[765px] border-white rounded-[20px]">
-        <Image src={Logo} className="ml-12" alt=""></Image>
+        <Image src={Logo} className="ml-12" alt="Logo WeDesc" />
         <Swiper
           slidesPerView={2}
           spaceBetween={51}
@@ -75,12 +75,12 @@ export default function SwiperPlans() {
                   gap: "10px",
                 }}
                 src={info.imgPath}
-                alt=""
+                alt="Imagem de cada sessão do card"
               />
               <div>
-                <h1 className="text-[18px] font-bold text-left px-2">
+                <h2 className="text-[18px] font-bold text-left px-2">
                   {info.title}
-                </h1>
+                </h2>
                 <p className="text-base px-2 text-left">{info.description}</p>
               </div>
             </SwiperSlide>

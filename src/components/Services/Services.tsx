@@ -13,9 +13,9 @@ export const Services = () => {
   return (
     <div className="flex flex-col gap-7 relative max-w-[1460px] px-[96px] m-auto">
       <div>
-        <h1 className="flex items-center justify-center text-[80px] font-bold text-white ">
-          Serviços <Image src={Rocket} alt="" />
-        </h1>
+        <h2 className="flex items-center justify-center text-[80px] font-bold text-white ">
+          Serviços <Image src={Rocket} alt="Imagem de Foguete" />
+        </h2>
         <div className="flex justify-center">
           <p className="text-white text-center w-[990px]">
             A Wedesc foi criada com base na ideologia de que podemos impactar

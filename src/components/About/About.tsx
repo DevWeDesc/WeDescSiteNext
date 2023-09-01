@@ -10,11 +10,13 @@ export const About = () => {
       <p className="m-auto mt-[40px] h-[1px] w-[1254px] bg-[#84CC16] mb-[40px]"></p>
       <div className="flex flex-col justify-between w-full">
         <div className="grid grid-cols-2 gap-10 relative max-w-[1460px] m-auto">
-          <div className="z-[1]">
-            <Image src={BoxImage} alt="" />
+          <div className="z-[1] hover:scale-105 transition-[10s]">
+            <Image src={BoxImage} alt="Imagem de Sobre" />
           </div>
           <div className="flex flex-col align-rigth pr-[130px]">
-            <h1 className="text-[44px] font-bold">Sobre a WeDesc</h1>
+            <h2 className="text-[44px] font-bold flex">
+              Sobre a {" "}<h1> WeDesc</h1>
+            </h2>
             <p>
               Na Wedesc, nossa jornada é um compromisso contínuo em moldar o
               sucesso das empresas por meio da tecnologia. Desde o início,

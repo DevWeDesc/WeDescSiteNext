@@ -4,8 +4,7 @@ import { ComentsData } from "./ComentsData";
 import Title from "@/images/Titulo.png";
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-import Image, { StaticImageData } from "next/image";
-import { ICardComents } from "@/interfaces/interfaces";
+import Image from "next/image";
 
 export const Coments = () => {
   const carouselRef = useRef<HTMLDivElement | null>(null);
@@ -23,7 +22,7 @@ export const Coments = () => {
     <div className="w-full h-[722px] overflow-hidden pl-20 ">
       <div className="w-full flex items-center relative gap-7 pt-[133px] pb-[233px]">
         <div className="w-[60%] h-full bg-gradient-to-r from-white to-[#868686] absolute z-[-5] right-[0px] shadow-2xl-[#C8C8C8]"></div>
-        <Image src={Title} className="mr-20" alt="" />
+        <Image src={Title} className="mr-20" alt="Imagem do Carousel" />
         <div className="w-full 2xl:max-w-[2235px] xl:max-w-[1100px]">
           <motion.div
             ref={carouselRef}

@@ -15,11 +15,11 @@ export const Cards = ({
       <Image
         src={cloud}
         className="absolute w-[185px] h-[67px] rotate-180"
-        alt=""
+        alt="Imagem de nuvem"
       />
       <div className=" mt-32 w-full flex flex-col items-center">
         <div className="w-24 h-24 rounded-full flex items-center justify-center bg-white">
-          <Image src={image} alt="" />
+          <Image src={image} alt="Imagem representando cada Serviço" />
         </div>
         <div className="pt-[30px] text-center text-white px-[36px] flex flex-col gap-8">
           <p className="font-bold">{title}</p>

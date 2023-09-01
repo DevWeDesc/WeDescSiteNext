@@ -24,10 +24,10 @@ export const CardPlans = ({
       </div>
       <div className="flex flex-col items-center w-full mt-10 gap-10 text-white">
         <div className="flex flex-col items-center w-full mt-10 gap-10 text-white px-5">
-          <Image className="w-[45px]" src={image} alt="" />
+          <Image className="w-[45px]" src={image} alt="Imagem de Cada plano" />
           <h3 className="text-white text-[18px]">{titleImage}</h3>
           <p className="h-[1px] w-[67%] bg-white"></p>
-          <h1 className="font-bold text-[18px]">{title} </h1>
+          <h4 className="font-bold text-[18px]">{title} </h4>
           <div className="leading-10">{children}</div>
         </div>
       </div>

@@ -7,7 +7,7 @@ export const Cases = () => {
     <div className=" w-full m-auto grid grid-cols-2 relative mt-[8%]">
       <div className="bg-[#172554] flex flex-col items-center justify-center text-white">
         <div className=" flex flex-col gap-3">
-          <h1 className="text-6xl font-bold">Nossas Cases</h1>
+          <h2 className="text-6xl font-bold">Nossas Cases</h2>
           <h2 className="text-2xl text-gray-200">
             Parcerias que Impulsionam o Sucesso
           </h2>

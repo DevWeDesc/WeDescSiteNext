@@ -7,13 +7,12 @@ export const CarePlans = () => {
     <div className="flex flex-col mt-[50px] gap-7 relative max-w-[1460px]  m-auto">
       <div className="grid grid-cols-5 gap-10 ">
         <div className="h-[778px]  col-span-3 flex justify-end">
-          {/* <SwipeableTextMobileStepper /> */}
           <SwiperPlans />
         </div>
         <div className="flex gap-10 flex-col items-start p-8 col-span-2 justify-center">
-          <h1 className="text-white font-bold text-[40px]">
+          <h2 className="text-white font-bold text-[40px]">
             Nossos Planos de atendimento
-          </h1>
+          </h2>
           <div>
             <p className="text-white w-[82%] leading-8">
               Nossos planos de atendimento são projetados para atender às
@@ -28,6 +27,7 @@ export const CarePlans = () => {
               Saiba Mais
             </button>
           </div>
+          <div id="Plans" />
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
     <li>
       <div>
         <li className="pr-10 cursor-pointer" onClick={onClick}>
-          <a href={Ref}>
+          <a href={Ref} title={text}>
             {text}
             {children}
           </a>
@@ -62,7 +62,12 @@ export const Nav = () => {
           >
             <button className="h-[40px] font-bold flex items-center gap-[4.27px] border-solid border-[1px] border-black py-[7px] px-[9px] rounded-md transition-all hover:bg-gray-100">
               WeDesc Code
-              <Image src={ImgButton} alt="" width={17} height={17} />
+              <Image
+                src={ImgButton}
+                alt="Icon de botão"
+                width={17}
+                height={17}
+              />
             </button>
           </a>
         </Li>

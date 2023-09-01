@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="w-screen h-[68px] sm:w-full lg:px-[90px] flex justify-center m-auto 2xl:max-w-[1460px]">
         <div className="sm:w-full flex justify-between px-4 py-[14px] items-center w-screen">
           <div>
-            <Image className="lg:h-7" src={Logo} alt="" />
+            <Image className="lg:h-7" src={Logo} alt="Logo WeDesc" />
           </div>
           <Nav />
         </div>

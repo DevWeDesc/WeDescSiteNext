@@ -11,7 +11,7 @@ export const SubHeader = () => {
       className="pt-10 relative m-auto flex justify-center lg:max-w-[1760px] "
     >
       <div className="flex border-b-[4px] border-[white]">
-        <Video></Video>
+        <Video />
         {/* <Image src={Banner} alt="" width={0} height={750}></Image> */}
         {/* <video
           className="w-auto bg-white outline-none"
@@ -52,7 +52,12 @@ export const SubHeader = () => {
           </div> */}
           <button className="absolute w-[250px] 2xl:left-[2px] top-[180px] left-[25px] px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
             Conhecer nossos planos
-            <Image src={IconButton} alt="" width={24} height={24} />
+            <Image
+              src={IconButton}
+              alt="Icone de Botão"
+              width={24}
+              height={24}
+            />
           </button>
         </div>
       </div>

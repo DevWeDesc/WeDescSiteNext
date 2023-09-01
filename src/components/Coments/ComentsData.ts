@@ -9,7 +9,7 @@ export const ComentsData = [
     Img: LogoDr,
     Title: "Hospital Veterinário Dr. Hato",
     Description:
-      "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas",
+      "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas.",
   },
   {
     Avaliation: 5,
@@ -30,7 +30,7 @@ export const ComentsData = [
     Img: LogoDr,
     Title: "Hospital Veterinário Dr. Hato",
     Description:
-      "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas",
+      "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas.",
   },
   {
     Avaliation: 5,
@@ -51,7 +51,7 @@ export const ComentsData = [
     Img: LogoDr,
     Title: "Hospital Veterinário Dr. Hato",
     Description:
-      "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas",
+      "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas.",
   },
   {
     Avaliation: 5,

@@ -20,7 +20,7 @@ export const Partners = () => {
             key={index}
             src={imgs.url}
             className=" max-h-[150px] object-scale-down"
-            alt=""
+            alt="Imagens de Empresas parceiras"
           />
         ))}
       </div>
