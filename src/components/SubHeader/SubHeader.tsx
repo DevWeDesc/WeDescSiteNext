@@ -1,7 +1,8 @@
 //import Video from "@/videos/Banner.mp4";
-import Banner from "@/images/Banner.png";
+
 import Image from "next/image";
 import IconButton from "@/images/ButtonBanner.png";
+import { Video } from "../Video/Video";
 
 export const SubHeader = () => {
   return (
@@ -10,7 +11,8 @@ export const SubHeader = () => {
       className="pt-10 relative m-auto flex justify-center lg:max-w-[1760px] "
     >
       <div className="flex border-b-[4px] border-[white]">
-        <Image src={Banner} alt="" width={0} height={750}></Image>
+        <Video></Video>
+        {/* <Image src={Banner} alt="" width={0} height={750}></Image> */}
         {/* <video
           className="w-auto bg-white outline-none"
           // src={Video}
@@ -36,7 +38,7 @@ export const SubHeader = () => {
       {/* <img className="lg:w-[90%]  w-full" src={Vetor} alt="" /> */}
       <div className="absolute w-full px-[12%] pt-[5%] max-w-[1460px]">
         <div className="absolute flex items-start flex-col lg:gap-5">
-          <h1 className="lg:text-[45px] leading-[65px] lg:max-w-[407px] font-bold text-white">
+          {/* <h1 className="lg:text-[45px] leading-[65px] lg:max-w-[407px] font-bold text-white">
             Nós Somos a WeDesc
           </h1>
           <div>
@@ -47,8 +49,8 @@ export const SubHeader = () => {
             <p className="text-[18px] max-w-[577px] text-gray-100 pr-36">
               Aumente a produtividade e reduza custos com nossos serviços de TI.{" "}
             </p>
-          </div>
-          <button className=" px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
+          </div> */}
+          <button className="absolute w-[250px] 2xl:left-[2px] top-[180px] left-[25px] px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
             Conhecer nossos planos
             <Image src={IconButton} alt="" width={24} height={24} />
           </button>
