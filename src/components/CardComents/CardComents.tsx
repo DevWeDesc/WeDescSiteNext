@@ -19,7 +19,7 @@ export const CardComents = ({
           alt="Imagem da empresa do comentário"
         />
         <div className="flex flex-col text-white gap-1">
-          <h3 className="text-xl text-gray-200">{Title}</h3>
+          <p className="text-xl text-gray-200">{Title}</p>
           <Rating
             name="size-large"
             sx={{ color: "white" }}

@@ -24,7 +24,7 @@ export const Partners = () => {
           />
         ))}
       </div>
-      <div className="pt-10" id="Contact"></div>
+      <div className="pt-10" id="Contact"/>
     </div>
   );
 };

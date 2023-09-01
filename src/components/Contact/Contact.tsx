@@ -18,11 +18,11 @@ export const Contact = () => {
         }}
       >
         <div className="flex flex-col p-10 gap-5">
-          <h3 className="text-4xl font-bold">Entre em contato com a gente</h3>
-          <h4 className="text-[24px] w-[450px]">
+          <p className="text-4xl font-bold">Entre em contato com a gente</p>
+          <p className="text-[24px] w-[450px]">
             Conte com uma equipe com experiência em soluções de TI. Fale com
             nossos especialistas hoje mesmo.
-          </h4>
+          </p>
           <div className="text-[24px] flex gap-12 mt-16">
             <Image
               src={Icon}
