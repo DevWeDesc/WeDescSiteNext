@@ -11,7 +11,7 @@ export const Cards = ({
 }: CardsProps) => {
   console.log(color.substring(0, 4));
   return (
-    <div className="w-[266px] h-[768px] rounded-[13px] flex relative backdrop-brightness-125">
+    <div className="w-[25%] rounded-[13px] flex relative backdrop-brightness-125">
       <Image
         src={cloud}
         className="absolute w-[185px] h-[67px] rotate-180"
