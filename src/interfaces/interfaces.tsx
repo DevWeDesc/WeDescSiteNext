@@ -40,7 +40,7 @@ export interface ILinearWithValueLabel {
 }
 
 export interface ICardComents {
-  Img: string;
+  Img: string | StaticImageData;
   Title: string;
   Description: string;
   Avaliation: number;

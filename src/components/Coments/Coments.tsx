@@ -4,7 +4,7 @@ import { ComentsData } from "./ComentsData";
 import Title from "@/images/Titulo.png";
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { ICardComents } from "@/interfaces/interfaces";
 
 export const Coments = () => {
@@ -39,7 +39,7 @@ export const Coments = () => {
                 <div key={index}>
                   <CardComents
                     Avaliation={coment.Avaliation}
-                    Img={coment.Img as string}
+                    Img={coment.Img}
                     Title={coment.Title}
                     Description={coment.Description}
                   />

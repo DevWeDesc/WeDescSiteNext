@@ -1,11 +1,12 @@
-import Image from "@/images/Ellipse 16.png";
+//import Image from "@/images/Ellipse 16.png";
 import Image1 from "@/images/Ellipse 16 (1).png";
 import Image2 from "@/images/Ellipse 16 (2).png";
+import LogoDr from "@/images/Logo-Dr-Hato-marca.png";
 
 export const ComentsData = [
   {
     Avaliation: 5,
-    Img: "@/images/Ellipse 16.png",
+    Img: LogoDr,
     Title: "Hospital Veterinário Dr. Hato",
     Description:
       "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas",
@@ -26,7 +27,7 @@ export const ComentsData = [
   },
   {
     Avaliation: 5,
-    Img: Image,
+    Img: LogoDr,
     Title: "Hospital Veterinário Dr. Hato",
     Description:
       "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas",
@@ -47,7 +48,7 @@ export const ComentsData = [
   },
   {
     Avaliation: 5,
-    Img: Image,
+    Img: LogoDr,
     Title: "Hospital Veterinário Dr. Hato",
     Description:
       "A Wedesc T.I atende todas as unidades do Dr Hato há 3 anos, sempre tivemos um excelente atendimento e uma rápidasolução dos problemas",
