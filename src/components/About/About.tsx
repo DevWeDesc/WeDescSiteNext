@@ -1,3 +1,4 @@
+"use client";
 import BoxImage from "@/images/caixinha.png";
 import lineService from "@/images/Vector 10.png";
 import Rectangle from "@/images/Rectangle 42.png";
@@ -15,7 +16,7 @@ export const About = () => {
           </div>
           <div className="flex flex-col align-rigth pr-[130px]">
             <h2 className="text-[44px] font-bold flex">
-              Sobre a {" "}<h1> WeDesc</h1>
+              Sobre a <h1> WeDesc</h1>
             </h2>
             <p>
               Na Wedesc, nossa jornada é um compromisso contínuo em moldar o

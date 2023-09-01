@@ -1,3 +1,4 @@
+"use client";
 import { About } from "@/components/About/About";
 import { CarePlans } from "@/components/CarePlans/CarePlans";
 import { Cases } from "@/components/Cases/Cases";
@@ -8,10 +9,19 @@ import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
 import { Partners } from "@/components/Partners/Partners";
 import { SubHeader } from "@/components/SubHeader/SubHeader";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+    >
       <Header />
       <SubHeader />
       <About />
@@ -22,6 +32,6 @@ export default function Home() {
       <Partners />
       <Contact />
       <Footer />
-    </main>
+    </motion.main>
   );
 }
