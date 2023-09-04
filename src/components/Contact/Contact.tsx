@@ -5,7 +5,7 @@ import { Image } from "next/dist/client/image-component";
 
 export const Contact = () => {
   return (
-    <div className="w-[80%] m-auto flex flex-col ">
+    <div className="lg:w-[80%] m-auto flex flex-col ">
       <div className="flex justify-center items-center gap-5 py-10">
         <p className="w-[25%] h-[2px] bg-[#FECC09]"></p>
         <h2 className="text-5xl font-bold text-[#FECC09]">Contato</h2>
@@ -19,7 +19,7 @@ export const Contact = () => {
       >
         <div className="flex flex-col p-10 gap-5">
           <p className="text-4xl font-bold">Entre em contato com a gente</p>
-          <p className="text-[24px] w-[450px]">
+          <p className="text-[24px] w-full">
             Conte com uma equipe com experiência em soluções de TI. Fale com
             nossos especialistas hoje mesmo.
           </p>

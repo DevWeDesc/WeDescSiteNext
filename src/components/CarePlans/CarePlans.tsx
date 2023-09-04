@@ -14,7 +14,7 @@ export const CarePlans = () => {
             Nossos Planos de atendimento
           </h2>
           <div>
-            <p className="text-white w-[82%] leading-8">
+            <p className="text-white w-[100%] lg:w-[82%] leading-8">
               Nossos planos de atendimento são projetados para atender às
               necessidades exclusivas da sua empresa. Com abordagens que vão
               desde o Essencial até o Enterprise, oferecemos suporte técnico,

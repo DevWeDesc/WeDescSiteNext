@@ -23,7 +23,7 @@ export const DescriptionCarePlans = () => {
           os processos de trabalho.
         </p>
       </div>
-      <div className="flex gap-10">
+      <div className="flex gap-10 flex-wrap">
         <CardPlans
           colorImage="#0CC0DF"
           imagePlans="PLANO ESSENCIAL"

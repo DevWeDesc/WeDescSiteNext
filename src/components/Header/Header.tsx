@@ -10,7 +10,7 @@ export const Header = () => {
   const [nav, setNav] = useState(false);
   return (
     <div className="fixed z-10 w-screen h-[68px] px-0 lg:px-[8%] flex justify-between bg-white">
-      <div className="w-screen h-[68px] sm:w-full lg:px-[90px] flex justify-center m-auto 2xl:max-w-[1460px]">
+      <div className="w-screen h-[68px] lg:px-[90px] flex justify-center m-auto 2xl:max-w-[1460px]">
         <div className="sm:w-full flex justify-between px-4 py-[14px] items-center w-screen">
           <div className="lg:hidden">
             <Image

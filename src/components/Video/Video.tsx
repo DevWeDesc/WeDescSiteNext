@@ -16,7 +16,7 @@ export const Video = () => {
       >
         <source src="/Banner.mp4" type="video/mp4" />
       </video>
-      <div className="border-white absolute bottom-0 border-[5px] w-[88%]"></div>
+      <div className="border-white absolute bottom-0 border-[5px] w-full"></div>
     </Suspense>
   );
 };

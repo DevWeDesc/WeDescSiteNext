@@ -11,9 +11,9 @@ export const SubHeader = () => {
       id="Init"
       className="pt-10 relative m-auto flex justify-center lg:max-w-[1760px] "
     >
-      <div className="flex border-b-[4px] border-[white]">
+      <div className="flex border-b-[4px] w-full border-[white]">
         <Video />
-        <Image src={Banner} alt="" className="mt-10 ml-2 lg:hidden" />
+        <Image src={Banner} alt="" className="mt-10 ml-4 w-full lg:hidden" />
         {/* <Image src={Banner} alt="" width={0} height={750}></Image> */}
         {/* <video
           className="w-auto bg-white outline-none"
