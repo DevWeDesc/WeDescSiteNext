@@ -3,6 +3,7 @@
 import Image from "next/image";
 import IconButton from "@/images/ButtonBanner.png";
 import { Video } from "../Video/Video";
+import Banner from "@/images/Seção 1.png";
 
 export const SubHeader = () => {
   return (
@@ -12,6 +13,7 @@ export const SubHeader = () => {
     >
       <div className="flex border-b-[4px] border-[white]">
         <Video />
+        <Image src={Banner} alt="" className="mt-10 ml-2 lg:hidden" />
         {/* <Image src={Banner} alt="" width={0} height={750}></Image> */}
         {/* <video
           className="w-auto bg-white outline-none"
@@ -36,7 +38,7 @@ export const SubHeader = () => {
         ></video>
       } */}
       {/* <img className="lg:w-[90%]  w-full" src={Vetor} alt="" /> */}
-      <div className="absolute w-full px-[12%] pt-[5%] max-w-[1460px]">
+      <div className="hidden lg:flex absolute w-full px-[12%] pt-[5%] max-w-[1460px]">
         <div className="absolute flex items-start flex-col lg:gap-5">
           {/* <h1 className="lg:text-[45px] leading-[65px] lg:max-w-[407px] font-bold text-white">
             Nós Somos a WeDesc

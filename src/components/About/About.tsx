@@ -4,19 +4,21 @@ import lineService from "@/images/Vector 10.png";
 import Rectangle from "@/images/Rectangle 42.png";
 import Image from "next/image";
 import { Services } from "../Services/Services";
+import ImageMobile from "@/images/Rectangle 42 (1).png";
+import LineImage from "@/images/Vector 10 (2).png";
 
 export const About = () => {
   return (
     <div className="w-full">
       <p className="m-auto mt-[40px] h-[1px] w-[1254px] bg-[#84CC16] mb-[40px]"></p>
       <div className="flex flex-col justify-between w-full">
-        <div className="grid grid-cols-2 gap-10 relative max-w-[1460px] m-auto">
-          <div className="z-[1] hover:scale-105 transition-[10s]">
+        <div className="grid lg:grid-cols-2 h-[800px] lg:h-auto grid-rows-2 lg:grid-rows-1 gap-10 relative max-w-[1460px] m-auto">
+          <div className="z-[1] h-[250px] lg:h-auto hover:scale-105 transition-[10s]">
             <Image src={BoxImage} alt="Imagem de Sobre" />
           </div>
-          <div className="flex flex-col align-rigth pr-[130px]">
+          <div className="flex p-6 flex-col align-center text-center lg:text-left lg:align-right lg:pr-[130px]">
             <h2 className="text-[44px] font-bold flex">
-              Sobre a <h1> WeDesc</h1>
+              Sobre a<h1> WeDesc</h1>
             </h2>
             <p>
               Na Wedesc, nossa jornada é um compromisso contínuo em moldar o
@@ -37,21 +39,41 @@ export const About = () => {
             <div id="Service"></div>
           </div>
         </div>
+        <Image
+          alt=""
+          src={LineImage}
+          className="w-full absolute pt-[1030px] z-[-2] lg:hidden"
+        ></Image>
+        <Image
+          alt=""
+          src={ImageMobile}
+          className="absolute pt-[1050px] z-[-2] lg:hidden"
+        ></Image>
+        <Image
+          alt=""
+          src={ImageMobile}
+          className="absolute pt-[2950px] z-[-2] lg:hidden"
+        ></Image>
+        <Image
+          alt=""
+          src={ImageMobile}
+          className="absolute pt-[4550px] z-[-2] lg:hidden"
+        ></Image>
 
         <Image
           src={lineService}
-          className="absolute lg:pt-[400px] pt-[360px] w-full z-[-2]"
+          className="hidden lg:block absolute lg:pt-[400px] pt-[360px] w-full z-[-2]"
           alt=""
         />
         <Image
           src={Rectangle}
-          className="absolute lg:pt-[410px] pt-[402px] 2xl:max-h-[4000px] w-full "
+          className="hidden lg:block absolute lg:pt-[410px] pt-[402px] 2xl:max-h-[4000px] w-full "
           alt=""
         />
 
         <Image
           src={Rectangle}
-          className="absolute lg:pt-[2000px] 2xl:pt-[1100px] w-full "
+          className="hidden lg:block absolute lg:pt-[2000px] 2xl:pt-[1100px] w-full "
           alt=""
         />
 

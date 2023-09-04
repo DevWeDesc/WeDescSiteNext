@@ -5,7 +5,7 @@ import SwiperPlans from "../SwiperPlans/SwiperPlans";
 export const CarePlans = () => {
   return (
     <div className="flex flex-col mt-[50px] gap-7 relative max-w-[1460px]  m-auto">
-      <div className="grid grid-cols-5 gap-10 ">
+      <div className="flex flex-col-reverse lg:grid lg:grid-cols-5 lg:gap-10 ">
         <div className="h-[778px]  col-span-3 flex justify-end">
           <SwiperPlans />
         </div>

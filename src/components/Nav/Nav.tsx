@@ -28,11 +28,21 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
   );
 };
 
-export const Nav = () => {
+type PropsStyle = {
+  styleNav: boolean;
+};
+
+export const Nav = ({ styleNav }: PropsStyle) => {
   const [selected, setSelected] = useState("Inicio");
   return (
-    <nav className="hidden lg:flex">
-      <ul className="flex items-center ">
+    <nav
+      className={
+        styleNav == true
+          ? "opacity-100 z-10 h-screen w-screen flex items-center justify-center fixed lg:flex"
+          : "opacity-0 hidden fixed lg:opacity-100 lg:relative lg:flex"
+      }
+    >
+      <ul className="flex flex-col fixed items-center justify-center h-full w-full lg:flex-row lg:relative ">
         <Li
           Ref="#Init"
           text="Inicio"

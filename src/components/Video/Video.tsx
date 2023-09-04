@@ -12,7 +12,7 @@ export const Video = () => {
         loop
         autoPlay
         muted
-        className="w-full h-full"
+        className="w-full h-full hidden lg:flex"
       >
         <source src="/Banner.mp4" type="video/mp4" />
       </video>

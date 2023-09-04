@@ -11,13 +11,13 @@ import Image from "next/image";
 
 export const Services = () => {
   return (
-    <div className="flex flex-col gap-7 relative max-w-[1460px] px-[96px] m-auto">
-      <div>
-        <h2 className="flex items-center justify-center text-[80px] font-bold text-white ">
+    <div className="flex flex-col gap-7 relative pt-[300px] lg:pt-0 max-w-[1460px] lg:px-[96px] m-auto">
+      <div className="px-4 lg:px-0">
+        <h2 className="flex items-center justify-center text-[50px] lg:text-[80px] font-bold text-white ">
           Serviços <Image src={Rocket} alt="Imagem de Foguete" />
         </h2>
         <div className="flex justify-center">
-          <p className="text-white text-center w-[990px]">
+          <p className="text-white text-center lg:w-[990px]">
             A Wedesc foi criada com base na ideologia de que podemos impactar
             significativamente o sucesso das empresas, tornando as soluções de
             tecnologia de disponíveis seguras e acessíveis. Somos um provedor de
@@ -27,7 +27,7 @@ export const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full gap-[66px] mt-5 justify-between ">
+      <div className=" hidden lg:flex flex-wrap w-full lg:gap-[0px] mt-5 justify-between ">
         <Cards
           cloud={CloudWhite}
           image={Img1}
