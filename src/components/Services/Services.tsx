@@ -8,16 +8,17 @@ import CloudWhite from "@/images/Rectangle 2.png";
 import CloudBlue from "@/images/Rectangle 2 (1).png";
 // import { CarePlans } from "../CarePlans/CarePlans";
 import Image from "next/image";
+import SwiperService from "../SwiperService/SwiperService";
 
 export const Services = () => {
   return (
-    <div className="flex flex-col gap-7 relative pt-[100px] lg:pt-0 max-w-[1460px] lg:px-[96px] m-auto">
+    <div className="flex flex-col gap-7 relative pt-[50px] lg:pt-0 max-w-[1460px] lg:px-[96px] m-auto ">
       <div className="px-4 lg:px-0">
-        <h2 className="flex items-center justify-center text-[50px] lg:text-[80px] font-bold text-white ">
+        <h2 className="flex items-center justify-center text-[50px] lg:text-[80px] font-bold lg:text-white  text-black">
           Serviços <Image src={Rocket} alt="Imagem de Foguete" />
         </h2>
         <div className="flex justify-center">
-          <p className="text-white text-center lg:w-[990px]">
+          <p className="lg:text-white text-center lg:w-[990px] text-black">
             A Wedesc foi criada com base na ideologia de que podemos impactar
             significativamente o sucesso das empresas, tornando as soluções de
             tecnologia de disponíveis seguras e acessíveis. Somos um provedor de
@@ -26,6 +27,9 @@ export const Services = () => {
             auxiliemos no alcance de seus objetivos.
           </p>
         </div>
+      </div>
+      <div className="w-full lg:hidden">
+        <SwiperService />
       </div>
       <div className=" hidden lg:flex flex-wrap w-full lg:gap-[0px] mt-5 justify-between ">
         <Cards

@@ -10,14 +10,14 @@ import LineImage from "@/images/Vector 10 (2).png";
 export const About = () => {
   return (
     <div className="w-full">
-      <p className="m-auto mt-[40px] h-[1px] w-full bg-[#84CC16] "></p>
+      <p className="m-auto mt-[40px] h-[1px] w-full bg-[#84CC16] " />
       <div className="flex flex-col justify-between w-full">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 h-auto lg:h-auto grid-rows-2 lg:grid-rows-1 gap-10 relative max-w-[1460px] m-auto">
           <div className="z-[1] h-auto lg:h-auto hover:scale-105 transition-[10s]">
             <Image src={BoxImage} alt="Imagem de Sobre" />
           </div>
           <div className="flex p-6 flex-col align-center text-center lg:text-left lg:align-right lg:pr-[130px]">
-            <h2 className="text-3xl lg:text-[44px] text-center w-full justify-center font-bold flex lg:flex lg:justify-normal">
+            <h2 className="text-4xl lg:text-[44px] text-center w-full justify-center font-bold flex lg:flex lg:justify-normal pb-4">
               Sobre a<h1> WeDesc</h1>
             </h2>
             <p>
@@ -39,7 +39,7 @@ export const About = () => {
             <div id="Service"></div>
           </div>
         </div>
-        <Image
+        {/* <Image
           alt=""
           src={LineImage}
           className="w-full absolute pt-[945px] z-[-2] lg:hidden"
@@ -58,7 +58,7 @@ export const About = () => {
           alt=""
           src={ImageMobile}
           className="absolute pt-[4550px] z-[-2] lg:hidden"
-        ></Image>
+        ></Image> */}
 
         <Image
           src={lineService}

@@ -31,10 +31,10 @@ export const CardPlans = ({
           <div className="leading-10">{children}</div>
         </div>
       </div>
-      <button className="w-[50%] hover:bg-gray-200 flex justify-between items-center gap-3 absolute bottom-[-25px] left-10 bg-white font-bold py-2 pl-6 pr-2 transition-colors rounded-full">
+      <button className="text-center w-[80%] h-[60px] hover:bg-gray-200 flex justify-center items-center gap-3 absolute bottom-[-25px] left-8 bg-white font-bold py-2 transition-colors rounded-full">
         {" "}
         Pedir Orçamento
-        <div className="h-[40px] w-[40px] rounded-full bg-black"></div>
+        {/* <div className="h-[40px] w-[40px] rounded-full bg-black"></div> */}
       </button>
     </div>
   );
