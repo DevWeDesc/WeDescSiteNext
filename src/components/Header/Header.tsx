@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <div className="fixed z-10 w-screen h-[68px] px-0 lg:px-[8%] flex justify-between bg-white">
       <div className="h-[68px] w-full lg:px-[90px] flex justify-center m-auto 2xl:max-w-[1460px]">
-        <div className="w-full flex justify-between px-4 py-[14px] items-center ">
+        <div className="w-full flex justify-between px-8 py-[14px] items-center ">
           <div className="lg:hidden">
             <Image
               src={Menu}
@@ -23,7 +23,7 @@ export const Header = () => {
             <Image className="lg:h-7" src={Logo} alt="Logo WeDesc" />
           </div>
           <div>
-            <Image className="lg:hidden mr-2" src={Search} alt="" />
+            <Image className="lg:hidden" src={Search} alt="" />
             <Nav styleNav={nav} />
           </div>
         </div>
