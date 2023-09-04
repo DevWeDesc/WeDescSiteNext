@@ -24,8 +24,8 @@ export default function Home() {
       className="w-full h-full"
     >
       <Header />
+      <SubHeader />
       <div className="hidden lg:block">
-        <SubHeader />
         <About />
         <CarePlans />
         <DescriptionCarePlans />
