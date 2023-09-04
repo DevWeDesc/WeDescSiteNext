@@ -38,7 +38,7 @@ export const SubHeader = () => {
         ></video>
       } */}
       {/* <img className="lg:w-[90%]  w-full" src={Vetor} alt="" /> */}
-      <div className="hidden lg:flex absolute w-full px-[12%] pt-[5%] max-w-[1460px]">
+      <div className="hidden lg:flex absolute w-full px-[7.7%] pt-[5%] 2xl:px-[2.5%] 2xl:pt-[8%] max-w-[1460px]">
         <div className="absolute flex items-start flex-col lg:gap-5">
           {/* <h1 className="lg:text-[45px] leading-[65px] lg:max-w-[407px] font-bold text-white">
             Nós Somos a WeDesc

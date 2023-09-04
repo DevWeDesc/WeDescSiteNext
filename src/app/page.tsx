@@ -21,17 +21,20 @@ export default function Home() {
         delay: 1,
         ease: [0, 0.71, 0.2, 1.01],
       }}
+      className="w-full h-full"
     >
       <Header />
-      <SubHeader />
-      <About />
-      <CarePlans />
-      <DescriptionCarePlans />
-      <Cases />
-      <Coments />
-      <Partners />
-      <Contact />
-      <Footer />
+      <div className="hidden lg:block">
+        <SubHeader />
+        <About />
+        <CarePlans />
+        <DescriptionCarePlans />
+        <Cases />
+        <Coments />
+        <Partners />
+        <Contact />
+        <Footer />
+      </div>
     </motion.main>
   );
 }

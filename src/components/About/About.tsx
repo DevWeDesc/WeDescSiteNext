@@ -10,14 +10,14 @@ import LineImage from "@/images/Vector 10 (2).png";
 export const About = () => {
   return (
     <div className="w-full">
-      <p className="m-auto mt-[40px] h-[1px] w-full bg-[#84CC16] mb-[40px]"></p>
+      <p className="m-auto mt-[40px] h-[1px] w-full bg-[#84CC16] "></p>
       <div className="flex flex-col justify-between w-full">
-        <div className="grid lg:grid-cols-2 h-[800px] lg:h-auto grid-rows-2 lg:grid-rows-1 gap-10 relative max-w-[1460px] m-auto">
-          <div className="z-[1] h-[250px] lg:h-auto hover:scale-105 transition-[10s]">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 h-auto lg:h-auto grid-rows-2 lg:grid-rows-1 gap-10 relative max-w-[1460px] m-auto">
+          <div className="z-[1] h-auto lg:h-auto hover:scale-105 transition-[10s]">
             <Image src={BoxImage} alt="Imagem de Sobre" />
           </div>
           <div className="flex p-6 flex-col align-center text-center lg:text-left lg:align-right lg:pr-[130px]">
-            <h2 className="text-[44px] text-center w-full justify-center font-bold flex">
+            <h2 className="text-3xl lg:text-[44px] text-center w-full justify-center font-bold flex lg:flex lg:justify-normal">
               Sobre a<h1> WeDesc</h1>
             </h2>
             <p>
@@ -42,17 +42,17 @@ export const About = () => {
         <Image
           alt=""
           src={LineImage}
-          className="w-full absolute pt-[1030px] z-[-2] lg:hidden"
+          className="w-full absolute pt-[945px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="absolute pt-[1050px] z-[-2] lg:hidden"
+          className="absolute pt-[9px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="absolute pt-[2950px] z-[-2] lg:hidden"
+          className="absolute pt-[2750px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""

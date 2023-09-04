@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export const Services = () => {
   return (
-    <div className="flex flex-col gap-7 relative pt-[300px] lg:pt-0 max-w-[1460px] lg:px-[96px] m-auto">
+    <div className="flex flex-col gap-7 relative pt-[100px] lg:pt-0 max-w-[1460px] lg:px-[96px] m-auto">
       <div className="px-4 lg:px-0">
         <h2 className="flex items-center justify-center text-[50px] lg:text-[80px] font-bold text-white ">
           Serviços <Image src={Rocket} alt="Imagem de Foguete" />
