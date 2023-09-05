@@ -44,14 +44,14 @@ export default function SwiperPlans() {
         <Image src={Logo} className="ml-12" alt="Logo WeDesc" />
         <Swiper
           slidesPerView={2}
-          spaceBetween={70}
+          spaceBetween={40}
           freeMode={true}
           style={{ height: "150%" }}
           pagination={{
             clickable: true,
           }}
           modules={[FreeMode, Pagination, Virtual, Navigation]}
-          className="px-[70px] pb-10"
+          className="px-10 pb-10"
           navigation={true}
         >
           {images.map((info, index) => (
@@ -61,7 +61,7 @@ export default function SwiperPlans() {
                   info.title === "Full Service" ? "#FECC09" : "#075985",
                 color: info.title === "Full Service" ? "black" : "white",
               }}
-              className="shadow-2xl max-w-[270px] rounded-[20px] items-start px-[10px] h-full flex flex-col bg-[#075985]"
+              className="shadow-2xl max-w-[380px] rounded-[20px] items-start px-[10px] h-full flex flex-col bg-[#075985]"
               key={index}
               virtualIndex={index}
             >
