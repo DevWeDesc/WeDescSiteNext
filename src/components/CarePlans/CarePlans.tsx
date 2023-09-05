@@ -24,9 +24,11 @@ export const CarePlans = () => {
               deixe a tecnologia conosco. Conheça mais sobre nossos planos de
               atendimento personalizados para você.
             </p>
-            <button className="bg-[#FECC09] px-9 py-3 rounded-full font-bold mt-5 hover:bg-[#d8af09]">
-              Saiba Mais
-            </button>
+            <a href="#Plans">
+              <button className="bg-[#FECC09] px-9 py-3 rounded-full font-bold mt-5 hover:bg-[#d8af09]">
+                Saiba Mais
+              </button>
+            </a>
           </div>
           <div id="Plans" />
         </div>

@@ -62,12 +62,12 @@ export const About = () => {
 
         <Image
           src={lineService}
-          className="hidden lg:block absolute lg:pt-[400px] pt-[360px] 2xl:pt-[340px] w-full z-[-2]"
+          className="hidden lg:block absolute lg:pt-[390px] pt-[360px] 2xl:pt-[340px] w-full z-[-2]"
           alt=""
         />
         <Image
           src={Rectangle}
-          className="z-[-2] hidden lg:block absolute lg:pt-[410px] pt-[402px] 2xl:pt-[380px]  w-full "
+          className="z-[-2] hidden lg:block absolute lg:pt-[418px] pt-[402px] 2xl:pt-[380px]  w-full "
           alt=""
         />
 
