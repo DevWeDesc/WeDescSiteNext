@@ -18,7 +18,8 @@ export const About = () => {
           </div>
           <div className="bg-white shadow-2xl z-[1] flex p-6 flex-col align-center text-center justify-center lg:text-left lg:align-right lg:p-8 lg:mx-10 rounded-[20px]">
             <h2 className="text-4xl lg:text-[44px] text-center w-full justify-center font-bold flex lg:flex lg:justify-normal pb-4">
-              Sobre a<h1> WeDesc</h1>
+              Sobre a<span style={{ marginRight: '10px' }}></span>
+              <h1> WeDesc</h1>
             </h2>
             <p>
               Na Wedesc, nossa jornada é um compromisso contínuo em moldar o
