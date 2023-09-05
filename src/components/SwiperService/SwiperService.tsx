@@ -1,54 +1,39 @@
 "use client";
-import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "@/app/globals.css";
 import { FreeMode, Pagination, Virtual, Navigation } from "swiper/modules";
-import Logo from "@/images/LogoWeDesc.png";
+import { Cards } from "../Cards/Cards";
+import Img1 from "@/images/Cloud.png";
+import Img2 from "@/images/Vector.png";
+import Img3 from "@/images/Vector (1).png";
+import Img4 from "@/images/Vector (2).png";
+import CloudWhite from "@/images/Rectangle 2.png";
+import CloudBlue from "@/images/Rectangle 2 (1).png";
 
 export default function SwiperService() {
   const images = [
     {
-      title: "Gerenciamento remoto e local",
-      imgPath:
-        "https://cdn.icon-icons.com/icons2/2715/PNG/512/rocket_icon_172240.png",
+      cloud: CloudWhite,
+      image: Img1,
+      title: "Solução em Nuvem",
       description:
-        "A Wedesc oferece serviços de gerenciamento remoto para empresas até 70 funcionários. Com atendimento abrangente, soluções completas, suporte especializado e proteção contra ameaças virtuais, garantimos eficiência e segurança para o seu ambiente tecnológico. Deixe-nos cuidar da sua tecnologia enquanto você foca no crescimento do seu negócio. Contate-nos para saber mais.",
-    },
-    {
-      title: "Full Service",
-      imgPath:
-        "https://cdn.icon-icons.com/icons2/2715/PNG/512/rocket_launch_icon_172239.png",
-      description:
-        "Com foco nas empresas a partir de 40 funcionários, a Wedesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
-    },
-    {
-      title: "Full Service",
-      imgPath:
-        "https://cdn.icon-icons.com/icons2/2715/PNG/512/rocket_launch_icon_172239.png",
-      description:
-        "Com foco nas empresas a partir de 40 funcionários, a Wedesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
-    },
-    {
-      title: "Gerenciamento remoto e local",
-      imgPath:
-        "https://cdn.icon-icons.com/icons2/2715/PNG/512/rocket_icon_172240.png",
-      description:
-        "A Wedesc oferece serviços de gerenciamento remoto para empresas até 70 funcionários. Com atendimento abrangente, soluções completas, suporte especializado e proteção contra ameaças virtuais, garantimos eficiência e segurança para o seu ambiente tecnológico. Deixe-nos cuidar da sua tecnologia enquanto você foca no crescimento do seu negócio. Contate-nos para saber mais.",
+        "Colaboração e produtividade de equipes locais ou em Home Office com alta disponibilidade, mobilidade e segurança.Provedor de Soluções Cloud do Microsoft 365;Provedor de Soluções Acronis Cyber Protection;Virtualização de aplicações e hospedagem Cloud.",
+      Bgcolor: "#FECC09",
+      color: "#000",
     },
   ];
 
   return (
     <>
-      <div className="h-full w-full flex flex-col  border-[4px] max-w-[320px] border-white rounded-[20px]">
-        <Image src={Logo} className="" alt="Logo WeDesc" />
+      <div className="h-full min-h-[1200px] w-full flex flex-col  border-[4px] max-w-[330px]  border-white rounded-[20px]">
         <Swiper
-          slidesPerView={2}
+          slidesPerView={1.5}
           spaceBetween={10}
           freeMode={true}
-          style={{ height: "150%" }}
+          style={{ height: "150%", width: "120%" }}
           // pagination={{
           //   clickable: true,
           // }}
@@ -56,34 +41,71 @@ export default function SwiperService() {
           className=""
           navigation={true}
         >
-          {images.map((info, index) => (
-            <SwiperSlide
-              style={{
-                backgroundColor:
-                  info.title === "Full Service" ? "#FECC09" : "#075985",
-                color: info.title === "Full Service" ? "black" : "white",
-              }}
-              className="rounded-[20px] items-start min-h-[846px]  h-full flex flex-col bg-[#075985]"
-              key={index}
-              virtualIndex={index}
-            >
-              <img
-                style={{
-                  width: "100px",
-                  height: "100px",
-                  marginBottom: "20px",
+          <div className="flex w-full h-[1300px] py-10 overflow-hidden gap-5">
+            <Cards
+              cloud={CloudWhite}
+              image={Img1}
+              title={"Solução em Nuvem"}
+              description={
+                "Colaboração e produtividade de equipes locais ou em Home Office com alta disponibilidade, mobilidade e segurança.Provedor de Soluções Cloud do Microsoft 365;Provedor de Soluções Acronis Cyber Protection;Virtualização de aplicações e hospedagem Cloud."
+              }
+              Bgcolor="#FECC09"
+              color="#000"
+            />
+
+            <Cards
+              cloud={CloudBlue}
+              image={Img2}
+              title={"Consultoria de tecnologia"}
+              description={
+                "Especialista de tecnologia apoiando seus planos estratégicos em soluções para expandir e garantir seu negócio.\n Time de sucesso do cliente acompanhando e garantindo qualidade na entrega de nossos serviços; \nConsultor especializado apoiando nossos clientes na jornada de descoberta e parceria com as mais variadas ofertas de tecnologia de mercado."
+              }
+              Bgcolor="#0CC0DF"
+              color={"#FFF"}
+            />
+            <Cards
+              cloud={CloudWhite}
+              image={Img3}
+              title={"Gestão e Suporte de TI"}
+              description={
+                "Atendimento especializado pronto para ajudar a sua equipe a produzir.\nGestão de Servidores e Infraestrutura;\nPrevenção a acidentes;\nAtendimento remoto e local;\nPlanos escaláveis ao seu negócio e orçamento."
+              }
+              Bgcolor="#FECC09"
+              color="#000"
+            />
+            <Cards
+              cloud={CloudBlue}
+              image={Img4}
+              title={"Soluçoes de Segurança"}
+              description={
+                "Cuidados com a integridade e continuidade de seu negócio.\n\nMonitoramento e proteção de Servidores e Estações;\n\nAções proativas e preventivas para infraestrutura de rede;\n\nContinuidade de negócios;\n\nBackup e criptografia de dados."
+              }
+              Bgcolor="#0CC0DF"
+              color="#FFF"
+            />
+          </div>
+          {/* {images.map((info, index) => {
+            return (
+              <SwiperSlide
+                onClick={() => {
+                  console.log(index);
+                  console.log(images.indexOf(info));
                 }}
-                src={info.imgPath}
-                alt="Imagem de cada sessão do card"
-              />
-              <div>
-                <h4 className="text-[18px] font-bold text-left ">
-                  {info.title}
-                </h4>
-                <p className="text-base px-2 text-left">{info.description}</p>
-              </div>
-            </SwiperSlide>
-          ))}
+                className=" rounded-[20px] items-start  justify-end  flex flex-col "
+                key={index}
+                virtualIndex={index}
+              >
+                <Cards
+                  cloud={info.cloud}
+                  image={info.image}
+                  title={info.title}
+                  description={info.description}
+                  Bgcolor={info.Bgcolor}
+                  color={info.color}
+                />
+              </SwiperSlide>
+            );
+          })} */}
         </Swiper>
       </div>
     </>

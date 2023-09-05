@@ -11,7 +11,7 @@ export const Cards = ({
 }: CardsProps) => {
   console.log(color.substring(0, 4));
   return (
-    <div className="w-[45%] lg:w-[23%] rounded-[13px] flex relative backdrop-brightness-125 hover:scale-105 transition-[10s]">
+    <div className="bg-blue-500 w-[100%] h-[96%] lg:h-[800px] lg:bg-inherit  lg:w-[23%] rounded-[13px] flex relative lg:backdrop-brightness-125 hover:scale-105 transition-[10s]">
       <Image
         src={cloud}
         className="absolute w-[185px] h-[67px] rotate-180"

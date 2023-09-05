@@ -4,8 +4,8 @@ import lineService from "@/images/Vector 10.png";
 import Rectangle from "@/images/Rectangle 42.png";
 import Image from "next/image";
 import { Services } from "../Services/Services";
-import ImageMobile from "@/images/Rectangle 42 (1).png";
-import LineImage from "@/images/Vector 10 (2).png";
+// import ImageMobile from "@/images/Rectangle 42 (1).png";
+// import LineImage from "@/images/Vector 10 (2).png";
 
 export const About = () => {
   return (
@@ -67,13 +67,13 @@ export const About = () => {
         />
         <Image
           src={Rectangle}
-          className="hidden lg:block absolute lg:pt-[410px] pt-[402px] 2xl:max-h-[4000px] w-full "
+          className="hidden lg:block absolute lg:pt-[410px] pt-[402px] 2xl:max-h-[4020px] w-full "
           alt=""
         />
 
         <Image
           src={Rectangle}
-          className="hidden lg:block absolute lg:pt-[2000px] 2xl:pt-[1100px] w-full "
+          className="hidden lg:block absolute lg:pt-[1700px] 2xl:hidden w-full "
           alt=""
         />
 
