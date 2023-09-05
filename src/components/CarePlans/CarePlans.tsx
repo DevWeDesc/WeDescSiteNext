@@ -7,7 +7,7 @@ export const CarePlans = () => {
     <div className="w-full flex flex-col mt-[50px] gap-7 relative max-w-[1460px] m-auto">
       <p className="w-full h-[0.5px] bg-white my-10" />
       <div className="flex w-full flex-col-reverse lg:grid lg:grid-cols-5 lg:gap-10 ">
-        <div className="hidden  h-[778px] col-span-3 lg:w-full lg:flex justify-end">
+        <div className="hidden  h-[778px] col-span-3 lg:w-full lg:flex lg:px-8 justify-end">
           <SwiperPlans />
         </div>
         <div className=" flex gap-10 flex-col items-start py-6 px-2 col-span-2 justify-center">

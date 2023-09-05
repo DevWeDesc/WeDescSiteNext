@@ -40,7 +40,7 @@ export default function SwiperPlans() {
 
   return (
     <>
-      <div className="shadow-2xl h-full w-full flex flex-col px-2 pt-14 border-[4px]  border-white rounded-[20px]">
+      <div className=" px-10 h-full w-full flex flex-col  pt-14 border-[4px]  border-white rounded-[20px]">
         <Image src={Logo} className="ml-12" alt="Logo WeDesc" />
         <Swiper
           slidesPerView={2}
