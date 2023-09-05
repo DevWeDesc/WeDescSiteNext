@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <>
-      <div className="mt-60 border-t-[1px] border-b-[1px] py-10">
+      <div className="mt-40 border-t-[1px] border-b-[1px] py-10">
         <div className="flex justify-evenly items-start">
           <Image
             src={ImageLogo}
@@ -15,16 +15,27 @@ export const Footer = () => {
             {" "}
             <h3 className="text-2xl font-bold">Explorar</h3>
             <p>
-              <a href="#Init" title="Inicio"> Inicio</a>
+              <a href="#Init" title="Inicio">
+                {" "}
+                Inicio
+              </a>
             </p>
             <p>
-              <a href="#Service" title="Serviços"> Serviços</a>
+              <a href="#Service" title="Serviços">
+                {" "}
+                Serviços
+              </a>
             </p>
             <p>
-              <a href="#Plans" title="Planos">Planos de atendimento</a>
+              <a href="#Plans" title="Planos">
+                Planos de atendimento
+              </a>
             </p>
             <p>
-              <a href="#Contact" title="Contato"> Contato </a>
+              <a href="#Contact" title="Contato">
+                {" "}
+                Contato{" "}
+              </a>
             </p>
           </div>
           <div className="flex flex-col text-[18px]">
