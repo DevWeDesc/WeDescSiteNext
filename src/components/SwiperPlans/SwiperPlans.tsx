@@ -84,9 +84,7 @@ export default function SwiperPlans() {
                 <h4 className="text-[18px] font-bold text-left px-2">
                   {info.title}
                 </h4>
-                <p className="leading-8 text-base px-2 text-left">
-                  {info.description}
-                </p>
+                <p className=" text-base px-2 text-left">{info.description}</p>
               </div>
             </SwiperSlide>
           ))}
