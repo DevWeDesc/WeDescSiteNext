@@ -28,12 +28,12 @@ export default function SwiperService() {
 
   return (
     <>
-      <div className="h-full min-h-[1200px] w-full flex flex-col  border-[4px] max-w-[330px]  border-white rounded-[20px]">
+      <div className="h-full min-h-[1200px] items-center w-full flex flex-col  border-[4px] max-w-[100vw]  border-white rounded-[20px]">
         <Swiper
           slidesPerView={1.5}
           spaceBetween={10}
           freeMode={true}
-          style={{ height: "150%", width: "120%" }}
+          style={{ height: "150%", width: "100%" }}
           // pagination={{
           //   clickable: true,
           // }}
