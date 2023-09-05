@@ -26,8 +26,8 @@ export default function Home() {
       <Header />
       <SubHeader />
       <About />
+      <CarePlans />
       <div className="hidden lg:block">
-        <CarePlans />
         <DescriptionCarePlans />
         <Cases />
         <Coments />
