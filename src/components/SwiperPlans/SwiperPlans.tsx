@@ -44,14 +44,14 @@ export default function SwiperPlans() {
         <Image src={Logo} className="ml-12" alt="Logo WeDesc" />
         <Swiper
           slidesPerView={2}
-          spaceBetween={52}
+          spaceBetween={70}
           freeMode={true}
           style={{ height: "150%" }}
           pagination={{
             clickable: true,
           }}
           modules={[FreeMode, Pagination, Virtual, Navigation]}
-          className="px-[50px] pb-10"
+          className="px-[70px] pb-10"
           navigation={true}
         >
           {images.map((info, index) => (
