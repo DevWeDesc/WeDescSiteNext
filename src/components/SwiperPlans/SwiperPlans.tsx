@@ -40,7 +40,7 @@ export default function SwiperPlans() {
 
   return (
     <>
-      <div className=" px-10 h-full w-full flex flex-col  pt-14 border-[4px]  border-white rounded-[20px]">
+      <div className="px-10 h-full w-full flex flex-col  pt-14 border-[4px]  border-white rounded-[20px]">
         <Image src={Logo} className="ml-12" alt="Logo WeDesc" />
         <Swiper
           slidesPerView={2}
@@ -61,7 +61,7 @@ export default function SwiperPlans() {
                   info.title === "Full Service" ? "#FECC09" : "#075985",
                 color: info.title === "Full Service" ? "black" : "white",
               }}
-              className="shadow-2xl rounded-[20px] items-start px-[10px] h-full flex flex-col bg-[#075985]"
+              className="shadow-2xl max-w-[270px] rounded-[20px] items-start px-[10px] h-full flex flex-col bg-[#075985]"
               key={index}
               virtualIndex={index}
             >
