@@ -52,15 +52,17 @@ export const SubHeader = () => {
               Aumente a produtividade e reduza custos com nossos serviços de TI.{" "}
             </p>
           </div> */}
-          <button className="absolute w-[250px] 2xl:left-[2px] top-[180px] left-[25px] px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
-            Conhecer nossos planos
-            <Image
-              src={IconButton}
-              alt="Icone de Botão"
-              width={24}
-              height={24}
-            />
-          </button>
+          <a href="#Plans">
+            <button className="absolute w-[250px] 2xl:left-[102px] top-[180px] left-[42px] px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
+              Conhecer nossos planos
+              <Image
+                src={IconButton}
+                alt="Icone de Botão"
+                width={24}
+                height={24}
+              />
+            </button>
+          </a>
         </div>
       </div>
     </div>
