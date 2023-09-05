@@ -28,7 +28,7 @@ export default function SwiperService() {
 
   return (
     <>
-      <div className="h-full min-h-[1200px] items-center w-full flex flex-col  border-[4px] max-w-[100vw]  border-white rounded-[20px]">
+      <div className=" h-full min-h-[1200px] items-center w-full flex flex-col  border-[4px] max-w-[100vw]  border-white rounded-[20px]">
         <Swiper
           slidesPerView={1.5}
           spaceBetween={10}
@@ -41,7 +41,7 @@ export default function SwiperService() {
           className=""
           navigation={true}
         >
-          <div className="flex w-full h-[1300px] py-10 overflow-hidden gap-5">
+          <div className=" flex w-full h-[1300px] py-10 overflow-hidden gap-5">
             <Cards
               cloud={CloudWhite}
               image={Img1}
