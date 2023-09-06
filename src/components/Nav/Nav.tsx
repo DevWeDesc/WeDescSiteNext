@@ -40,7 +40,7 @@ export const Nav = ({ styleNav, setStyleNav }: PropsStyle) => {
     <nav
       className={
         styleNav
-          ? "transition-all lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200] fixed bg-white left-0 top-12 h-screen w-screen z-10 opacity-100"
+          ? "transition-all lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200] fixed bg-white left-0 top-12 h-[94vh] w-screen z-10 opacity-100"
           : "fixed top-0 transition-all w-full opacity-0 h-0 lg:opacity-100 lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200]"
       }
     >
