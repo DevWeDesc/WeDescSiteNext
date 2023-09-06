@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 export interface LiProps {
   Ref?: string;
-  text?: string;
+  text?: string | any;
   children?: ReactNode;
   selected?: string;
   onClick?: () => void;

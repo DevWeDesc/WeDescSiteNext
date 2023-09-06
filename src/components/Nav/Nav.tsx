@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Links } from "./LinksNav";
 import ImgButton from "@/images/imgButtonNav.png";
 import { LiProps } from "../../interfaces/interfaces";
 import Image from "next/image";
@@ -8,11 +9,11 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
   return (
     <li>
       <div>
-        <li className="cursor-pointer" onClick={onClick}>
+        <li className="text-2xl lg:text-lg cursor-pointer" onClick={onClick}>
           <a
             href={Ref}
             title={text}
-            className="hover:text-[17px] transition-[10s]"
+            className=" hover:text-[19px] transition-[10s]"
           >
             {text}
             {children}
@@ -20,7 +21,7 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
         </li>
         {text === selected && (
           <li>
-            <p className="w-[38.17px] h-[2px] bg-gradient-to-r from-[#A14BD1] via-[#81D4E8]"></p>
+            <p className="w-[38.17px] h-[2px] bg-gradient-to-r from-[#A14BD1] via-[#81D4E8]" />
           </li>
         )}
       </div>
@@ -30,44 +31,32 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
 
 type PropsStyle = {
   styleNav: boolean;
+  setStyleNav: () => void;
 };
 
-export const Nav = ({ styleNav }: PropsStyle) => {
+export const Nav = ({ styleNav, setStyleNav }: PropsStyle) => {
   const [selected, setSelected] = useState("Inicio");
   return (
     <nav
       className={
-        styleNav == true
-          ? "opacity-100 z-10 h-screen w-screen flex items-center justify-center fixed lg:flex"
-          : "opacity-0 hidden fixed lg:opacity-100 lg:relative lg:flex"
+        styleNav
+          ? "transition-all lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200] fixed bg-white left-0 top-12 h-screen w-screen z-10 opacity-100"
+          : "fixed top-0 transition-all w-full opacity-0 h-0 lg:opacity-100 lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200]"
       }
     >
-      <ul className="flex flex-col fixed items-center justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
-        <Li
-          Ref="#Init"
-          text="Inicio"
-          selected={selected}
-          onClick={() => setSelected("Inicio")}
-        />
-        <Li
-          Ref="#Service"
-          text="Nossos Serviços"
-          selected={selected}
-          onClick={() => setSelected("Nossos Serviços")}
-        />
-        <Li
-          Ref="#Plans"
-          text="Planos de Atendimento"
-          selected={selected}
-          onClick={() => setSelected("Planos de Atendimento")}
-        />
-        <Li
-          Ref="#Contact"
-          text="Contato"
-          selected={selected}
-          onClick={() => setSelected("Contato")}
-        />
-
+      <ul className="flex flex-col gap-10 items-center justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
+        {Links.map((link, index) => (
+          <Li
+            Ref={link.Ref}
+            text={link.text}
+            key={index}
+            selected={selected}
+            onClick={() => {
+              setSelected(link.text);
+              setStyleNav();
+            }}
+          ></Li>
+        ))}
         <Li selected={selected} onClick={() => setSelected("Inicio")}>
           <a
             href="https://we-desc.vercel.app/"

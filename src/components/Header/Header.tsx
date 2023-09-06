@@ -24,7 +24,10 @@ export const Header = () => {
           </div>
           <div>
             <Image className="xl:hidden" src={Search} alt="" />
-            <Nav styleNav={nav} />
+            <Nav
+              styleNav={nav}
+              setStyleNav={() => (nav ? setNav(false) : setNav(true))}
+            />
           </div>
         </div>
       </div>
