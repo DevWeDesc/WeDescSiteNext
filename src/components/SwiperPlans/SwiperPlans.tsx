@@ -9,10 +9,11 @@ import { FreeMode, Pagination, Virtual, Navigation } from "swiper/modules";
 import Logo from "@/images/LogoWeDesc.png";
 import Rocket1 from "@/images/comece 1.png";
 import Rocket2 from "@/images/Vector (10).png";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function SwiperPlans() {
   const Ref = useRef(null);
+  const [slidesPerView, setSlidesPerView] = useState(2);
 
   const images = [
     {
@@ -41,6 +42,27 @@ export default function SwiperPlans() {
     },
   ];
 
+  useEffect(() => {
+    // Verifica se o objeto `window` está disponível antes de usar
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        if (window.innerWidth < 428) {
+          setSlidesPerView(1); // Define apenas um slide por vez quando a largura da tela é menor que 428px
+        } else {
+          setSlidesPerView(2); // Define dois slides por vez para larguras de tela maiores
+        }
+      };
+
+      // Adiciona um ouvinte de redimensionamento para atualizar as visualizações de slide com base na largura da tela
+      window.addEventListener("resize", handleResize);
+
+      // Remove o ouvinte de redimensionamento quando o componente for desmontado
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, []);
+
   return (
     <>
       <div
@@ -49,7 +71,7 @@ export default function SwiperPlans() {
       >
         <Image src={Logo} className="ml-2 lg:ml-12" alt="Logo WeDesc" />
         <Swiper
-          slidesPerView={window?.innerWidth < 428 ? 1 : 2}
+          slidesPerView={slidesPerView}
           spaceBetween={40}
           freeMode={true}
           style={{ height: "150%" }}
@@ -74,8 +96,8 @@ export default function SwiperPlans() {
               <Image
                 style={{
                   position: "absolute",
-                  top: window.innerWidth < 428 ? "25px" : "25px",
-                  left: window.innerWidth < 428 ? "35px" : "25px",
+                  top: "25px",
+                  left: "35px",
                   width: info.imgPath === Rocket1 ? "73px" : "53px",
                   height: "73px",
                   objectFit: "contain",
