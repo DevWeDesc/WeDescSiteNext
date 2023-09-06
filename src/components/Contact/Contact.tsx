@@ -5,14 +5,14 @@ import { Image } from "next/dist/client/image-component";
 
 export const Contact = () => {
   return (
-    <div className="lg:w-[80%] m-auto flex flex-col ">
+    <div className="lg:w-[100%] xl-[80%] m-auto flex flex-col ">
       <div className="flex justify-center items-center gap-5 py-10">
         <p className="w-[25%] h-[2px] bg-[#FECC09]"></p>
         <h2 className="text-5xl font-bold text-[#FECC09]">Contato</h2>
         <p className="w-[25%] h-[2px] bg-[#FECC09]"></p>
       </div>
       <div
-        className="grid grid-cols-2 mx-32 2xl:mx-96"
+        className="grid grid-cols-2 lg:mx-8 xl:mx-52 2xl:mx-96"
         style={{
           boxShadow: "0 0 40px rgba(123, 123, 123, 0.8)",
         }}

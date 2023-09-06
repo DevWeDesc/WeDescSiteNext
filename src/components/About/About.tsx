@@ -37,7 +37,7 @@ export const About = () => {
               moldados pelas histórias de sucesso das empresas que ajudamos a
               impulsionar.
             </p>
-            <div id="Service"></div>
+            <div id="Service"/>
           </div>
         </div>
         {/* <Image
@@ -63,18 +63,23 @@ export const About = () => {
 
         <Image
           src={lineService}
-          className="hidden lg:block absolute lg:pt-[390px] pt-[360px] 2xl:pt-[340px] w-full z-[-2]"
+          className="hidden lg:block absolute lg:pt-[400px] xl:pt-[390px] pt-[360px] 2xl:pt-[340px] w-full z-[-2]"
           alt=""
         />
         <Image
           src={Rectangle}
-          className="z-[-2] hidden lg:block absolute lg:pt-[418px] pt-[402px] 2xl:pt-[380px]  w-full "
+          className="z-[-2] hidden lg:block lg:pt-[420px] absolute xl:pt-[418px] pt-[402px] 2xl:pt-[380px]  w-full "
           alt=""
         />
 
         <Image
           src={Rectangle}
-          className="z-[-2] hidden lg:block absolute lg:pt-[2500px] 2xl:pt-[1280px] w-full "
+          className="z-[-2] hidden lg:block lg:pt-[2090px] absolute xl:pt-[2500px] 2xl:pt-[1280px] w-full "
+          alt=""
+        />
+                <Image
+          src={Rectangle}
+          className="z-[-2] hidden lg:block lg:pt-[3780px] absolute xl:hidden w-full "
           alt=""
         />
 
