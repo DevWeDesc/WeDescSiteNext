@@ -74,7 +74,7 @@ export const About = () => {
 
         <Image
           src={Rectangle}
-          className="z-[-2] hidden lg:block absolute lg:pt-[2500px] 2xl:hidden w-full "
+          className="z-[-2] hidden lg:block absolute lg:pt-[2500px] 2xl:pt-[1280px] w-full "
           alt=""
         />
 
