@@ -8,7 +8,7 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
   return (
     <li>
       <div>
-        <li className="pr-10 cursor-pointer" onClick={onClick}>
+        <li className="cursor-pointer" onClick={onClick}>
           <a
             href={Ref}
             title={text}
@@ -42,7 +42,7 @@ export const Nav = ({ styleNav }: PropsStyle) => {
           : "opacity-0 hidden fixed lg:opacity-100 lg:relative lg:flex"
       }
     >
-      <ul className="flex flex-col fixed items-center justify-center h-full w-full lg:flex-row lg:relative ">
+      <ul className="flex flex-col fixed items-center justify-center h-full w-full lg:flex-row lg: gap-7 lg:relative ">
         <Li
           Ref="#Init"
           text="Inicio"
