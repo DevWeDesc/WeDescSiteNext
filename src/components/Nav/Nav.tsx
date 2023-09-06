@@ -42,7 +42,7 @@ export const Nav = ({ styleNav }: PropsStyle) => {
           : "opacity-0 hidden fixed lg:opacity-100 lg:relative lg:flex"
       }
     >
-      <ul className="flex flex-col fixed items-center justify-center h-full w-full xl:flex-row xl: gap-7 xl:relative ">
+      <ul className="flex flex-col fixed items-center justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
         <Li
           Ref="#Init"
           text="Inicio"

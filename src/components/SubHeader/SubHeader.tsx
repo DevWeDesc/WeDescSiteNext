@@ -53,7 +53,7 @@ export const SubHeader = () => {
             </p>
           </div> */}
           <a href="#Plans">
-            <button className="absolute w-[250px] 2xl:left-[102px] top-[180px] lg:top-[120px] lg:left-[122px] px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
+            <button className="absolute w-[250px] 2xl:left-[102px] xl:top-[180px] lg:top-[120px] lg:left-[122px] px-[16px] rounded-sm flex items-center gap-[5.05px] h-[44px] text-white bg-[#FECC09] transition-colors hover:bg-[#e3b600]">
               Conhecer nossos planos
               <Image
                 src={IconButton}
