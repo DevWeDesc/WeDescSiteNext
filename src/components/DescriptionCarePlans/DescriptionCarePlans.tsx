@@ -10,11 +10,16 @@ import { CardPlans } from "../CardPlans/CardPlans";
 export const DescriptionCarePlans = () => {
   return (
     <div className="flex flex-col relative mt-24 max-w-[1460px] m-auto lg:px-4 xl:p-0">
-      <div className=" flex gap-5 flex-col items-center text-center text-white">
-        <h2 className="flex gap-10 items-center text-[56px] font-bold">
-          Planos de atendimento <Image src={Rocket} alt="Imagem de foguete" />
+      <div className=" flex gap-5 flex-col items-center px-4 lg:text-center lg:text-white">
+        <h2 className="flex gap-10 text-3xl lg:items-center items-start lg:text-[56px] font-bold">
+          Planos de atendimento{" "}
+          <Image
+            src={Rocket}
+            className="hidden lg:block"
+            alt="Imagem de foguete"
+          />
         </h2>
-        <p className="leading-9 px-[145px]">
+        <p className="leading-9 lg:px-[145px]">
           As soluções tecnológicas carecem de acompanhamento preventivo e
           reativo, para que o seu trabalho não esteja sujeito a falhas. Ter o
           seu parque de equipamentos atualizado não é um detalhe na vida da sua
@@ -23,7 +28,7 @@ export const DescriptionCarePlans = () => {
           os processos de trabalho.
         </p>
       </div>
-      <div className="flex gap-8 justify-center flex-wrap">
+      <div className="flex gap-4 lg:gap-8 justify-center flex-wrap">
         <CardPlans
           colorImage="#0CC0DF"
           imagePlans="PLANO ESSENCIAL"

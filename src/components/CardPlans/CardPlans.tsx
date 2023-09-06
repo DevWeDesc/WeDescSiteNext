@@ -10,7 +10,7 @@ export const CardPlans = ({
   colorImage,
 }: ICardPlans) => {
   return (
-    <div className=" mt-6 min-h-[590px] pb-[100px] w-[22%] rounded-[20px] flex flex-col items-start bg-transparent backdrop-brightness-125 hover:scale-105 transition-[10s]">
+    <div className=" mt-10 lg:mt-6 lg:min-h-[590px] pb-[100px] w-[46%] lg:w-[22%] rounded-[20px] flex flex-col items-start bg-[#0369A1] lg:bg-transparent lg:backdrop-brightness-125 hover:scale-105 transition-[10s]">
       <div className="mt-10 py-2">
         <p
           className="px-4 w-auto py-2 rounded-tr-full rounded-br-full font-bold"
@@ -31,7 +31,7 @@ export const CardPlans = ({
           <div className="leading-10">{children}</div>
         </div>
       </div>
-      <button className="text-center w-[80%] h-[60px] hover:bg-gray-200 flex justify-center items-center gap-3 absolute bottom-[-25px] left-8 bg-white font-bold py-2 transition-colors rounded-full">
+      <button className="text-center lg:w-[80%] h-[60px] hover:bg-gray-200 flex justify-center items-center gap-3 absolute bottom-[-25px] left-8 bg-white font-bold py-2 transition-colors rounded-full">
         {" "}
         Pedir Orçamento
         {/* <div className="h-[40px] w-[40px] rounded-full bg-black"></div> */}
