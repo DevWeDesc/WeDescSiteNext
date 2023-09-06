@@ -9,7 +9,7 @@ import { CardPlans } from "../CardPlans/CardPlans";
 
 export const DescriptionCarePlans = () => {
   return (
-    <div className="flex flex-col relative mt-24 max-w-[1460px] m-auto px-[95px]">
+    <div className="flex flex-col relative mt-24 max-w-[1460px] m-auto lg:px-4 xl:p-0">
       <div className=" flex gap-5 flex-col items-center text-center text-white">
         <h2 className="flex gap-10 items-center text-[56px] font-bold">
           Planos de atendimento <Image src={Rocket} alt="Imagem de foguete" />
@@ -23,7 +23,7 @@ export const DescriptionCarePlans = () => {
           os processos de trabalho.
         </p>
       </div>
-      <div className="flex gap-10 flex-wrap">
+      <div className="flex gap-10 justify-center flex-wrap">
         <CardPlans
           colorImage="#0CC0DF"
           imagePlans="PLANO ESSENCIAL"
