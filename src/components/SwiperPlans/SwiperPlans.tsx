@@ -9,8 +9,11 @@ import { FreeMode, Pagination, Virtual, Navigation } from "swiper/modules";
 import Logo from "@/images/LogoWeDesc.png";
 import Rocket1 from "@/images/comece 1.png";
 import Rocket2 from "@/images/Vector (10).png";
+import { useRef } from "react";
 
 export default function SwiperPlans() {
+  const Ref = useRef(null);
+
   const images = [
     {
       title: "Gerenciado e Remoto",
@@ -40,10 +43,13 @@ export default function SwiperPlans() {
 
   return (
     <>
-      <div className="px-10 h-full w-full flex flex-col  pt-14 border-[4px]  border-white rounded-[20px]">
-        <Image src={Logo} className="ml-12" alt="Logo WeDesc" />
+      <div
+        ref={Ref}
+        className="lg:px-10 h-full w-full flex flex-col  pt-14 border-[4px]  border-white rounded-[20px]"
+      >
+        <Image src={Logo} className="ml-2 lg:ml-12" alt="Logo WeDesc" />
         <Swiper
-          slidesPerView={2}
+          slidesPerView={window?.innerWidth < 428 ? 1 : 2}
           spaceBetween={40}
           freeMode={true}
           style={{ height: "150%" }}
@@ -51,7 +57,7 @@ export default function SwiperPlans() {
             clickable: true,
           }}
           modules={[FreeMode, Pagination, Virtual, Navigation]}
-          className="px-10 pb-10"
+          className="px-2 pb-10"
           navigation={true}
         >
           {images.map((info, index) => (
@@ -61,15 +67,15 @@ export default function SwiperPlans() {
                   info.title === "Full Service" ? "#FECC09" : "#075985",
                 color: info.title === "Full Service" ? "black" : "white",
               }}
-              className="shadow-2xl max-w-[380px] rounded-[20px] items-start px-[10px] h-full flex flex-col bg-[#075985]"
+              className="shadow-2xl lg:max-w-[380px] rounded-[20px] items-start lg:px-[10px] h-full flex flex-col bg-[#075985]"
               key={index}
               virtualIndex={index}
             >
               <Image
                 style={{
                   position: "absolute",
-                  top: "25px",
-                  left: "25px",
+                  top: window.innerWidth < 428 ? "25px" : "25px",
+                  left: window.innerWidth < 428 ? "35px" : "25px",
                   width: info.imgPath === Rocket1 ? "73px" : "53px",
                   height: "73px",
                   objectFit: "contain",
@@ -79,12 +85,14 @@ export default function SwiperPlans() {
                 src={info.imgPath}
                 alt="Imagem de cada sessão do card"
               />
-              <p className="w-6 h-[2px] bg-black absolute top-[100px] left-[20px]" />
+              <p className="w-6 h-[2px] bg-black absolute left-[40px] top-[105px] lg:top-[100px] lg:left-[20px]" />
               <div className="px-4 absolute top-[150px] flex flex-col gap-8">
-                <h4 className="text-[18px] font-bold text-left px-2">
+                <h4 className="text-[18px] font-bold text-left px-6 lg:px-2">
                   {info.title}
                 </h4>
-                <p className=" text-base px-2 text-left">{info.description}</p>
+                <p className="text-base px-6 lg:px-2 text-left">
+                  {info.description}
+                </p>
               </div>
             </SwiperSlide>
           ))}

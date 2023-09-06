@@ -9,7 +9,10 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
   return (
     <li>
       <div>
-        <li className="text-xl lg:text-lg cursor-pointer" onClick={onClick}>
+        <li
+          className="text-xl sm:text-2xl lg:text-lg cursor-pointer"
+          onClick={onClick}
+        >
           <a
             href={Ref}
             title={text}
@@ -40,11 +43,11 @@ export const Nav = ({ styleNav, setStyleNav }: PropsStyle) => {
     <nav
       className={
         styleNav
-          ? "transition-all lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200] fixed bg-white left-0 top-12 h-full w-screen z-10 opacity-100"
-          : "fixed top-0 transition-all w-full opacity-0 h-0 lg:opacity-100 lg:relative lg:right-0 lg:w-full lg:top-0 lg:h-full lg:backdrop-brightness-[200]"
+          ? "transition-all xl:relative xl:right-0 xl:w-full xl:top-0 xl:h-full xl:backdrop-brightness-[200] fixed bg-white left-0 sm:w-auto top-12 h-full w-screen z-10 opacity-100"
+          : "fixed top-0 transition-all w-full sm:w-auto opacity-0 h-0 xl:opacity-100 xl:relative xl:right-0 xl:w-full xl:top-0 xl:h-full xl:backdrop-brightness-[200]"
       }
     >
-      <ul className="flex flex-col gap-10 items-center justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
+      <ul className="flex flex-col gap-10 items-center sm:justify-evenly lg:py-0 lg:justify-center lg:items-center lg:px-0 sm:py-56  sm:items-start sm:px-10 justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
         {Links.map((link, index) => (
           <Li
             Ref={link.Ref}
