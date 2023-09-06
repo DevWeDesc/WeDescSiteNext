@@ -9,7 +9,7 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
   return (
     <li>
       <div>
-        <li className="text-2xl lg:text-lg cursor-pointer" onClick={onClick}>
+        <li className="text-xl lg:text-lg cursor-pointer" onClick={onClick}>
           <a
             href={Ref}
             title={text}
