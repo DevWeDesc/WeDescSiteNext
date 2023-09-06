@@ -12,11 +12,11 @@ export const About = () => {
     <div className="w-full">
       <p className="m-auto mt-[40px] h-[1px] w-full bg-[#84CC16] xl:mb-20" />
       <div className="flex flex-col justify-between w-full">
-        <div className=" flex flex-col-reverse lg:grid lg:grid-cols-2 h-auto lg:h-auto grid-rows-2 lg:grid-rows-1 gap-10 relative max-w-[1460px] m-auto">
+        <div className=" flex flex-col-reverse lg:mt-8 lg:grid lg:grid-cols-2 h-auto lg:h-auto grid-rows-2 lg:grid-rows-1 gap-10 relative max-w-[1460px] m-auto">
           <div className="z-[1] h-auto lg:h-auto hover:scale-105 transition-[10s] px-2 xl:px-6">
             <Image src={BoxImage} alt="Imagem de Sobre" />
           </div>
-          <div className="bg-white shadow-2xl z-[1] flex p-6 flex-col align-center text-center justify-center lg:text-left lg:align-right lg:p-8 lg:mx-10 rounded-[20px]">
+          <div className="bg-white shadow-2xl z-[1] flex p-6 flex-col align-center text-center justify-center lg:text-left lg:align-right lg:p-8 lg:mx-3 rounded-[20px]">
             <h2 className="text-4xl lg:text-[44px] text-center w-full justify-center font-bold flex lg:flex lg:justify-normal pb-4">
               Sobre a<span style={{ marginRight: '10px' }}></span>
               <h1> WeDesc</h1>
