@@ -19,10 +19,14 @@ export const Coments = () => {
   }, []);
 
   return (
-    <div className=" w-full h-[722px] overflow-hidden bg-gradient-to-r from-white to-[#868686] pl-20 ">
-      <div className="w-full flex items-center relative gap-7 pt-[133px] pb-[233px]">
+    <div className=" w-full h-full lg:h-[722px] overflow-hidden bg-gradient-to-r from-white to-[#868686] lg:pl-20 ">
+      <div className="w-full flex  lg:flex-row flex-col items-center relative gap-7 py-[100px] lg:pt-[133px] lg:pb-[233px]">
         <div className="w-full h-full bg-gradient-to-r from-white to-[#868686] absolute z-[-1] left-[0px] right-[0px] shadow-2xl-[#C8C8C8]"></div>
-        <Image src={Title} className="mr-20 z-[2] " alt="Imagem do Carousel" />
+        <Image
+          src={Title}
+          className="lg:mr-20 z-[2] "
+          alt="Imagem do Carousel"
+        />
         <div className="w-full  2xl:max-w-[2235px] xl:max-w-[1100px]">
           <motion.div
             ref={carouselRef}
