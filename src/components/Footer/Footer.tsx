@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <>
-      <div className="justify-center bg-[#1B2D49] text-white lg:bg-white lg:text-black mt-40 border-t-[1px] border-b-[1px] py-10">
+      <div className="justify-center bg-[#1B2D49] text-white lg:bg-white lg:text-black lg:mt-40 border-t-[1px] border-b-[1px] py-10">
         <div className="flex flex-col items-center text-center lg:text-start lg:flex-row justify-evenly lg:items-start">
           <Image
             src={ImageLogo}

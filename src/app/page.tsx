@@ -32,8 +32,8 @@ export default function Home() {
         <Cases />
         <Coments />
         <Partners />
-        <Contact />
       </div>
+      <Contact />
       <Footer />
     </motion.main>
   );
