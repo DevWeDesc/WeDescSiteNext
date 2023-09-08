@@ -1,6 +1,6 @@
 import Icon from "@/images/pin.png";
 import Icon2 from "@/images/envelope (1).png";
-import Icon3 from "@/images/Phone (1).png";
+import Icon3 from "@/images/phone (1).png";
 import { Image } from "next/dist/client/image-component";
 
 export const Contact = () => {
