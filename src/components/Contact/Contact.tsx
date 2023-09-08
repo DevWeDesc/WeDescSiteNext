@@ -1,6 +1,6 @@
-import Icon from "@/images/MapPin.png";
-import Icon2 from "@/images/Envelope.png";
-import Icon3 from "@/images/Phone.png";
+import Icon from "@/images/pin.png";
+import Icon2 from "@/images/envelope (1).png";
+import Icon3 from "@/images/Phone (1).png";
 import { Image } from "next/dist/client/image-component";
 
 export const Contact = () => {
@@ -25,26 +25,26 @@ export const Contact = () => {
             Conte com uma equipe com experiência em soluções de TI. Fale com
             nossos especialistas hoje mesmo.
           </p>
-          <div className="w-full text-xl gap-2 flex lg:gap-12 mt-16">
+          <div className="w-full text-xl gap-2 items-center flex lg:gap-12 mt-16">
             <Image
               src={Icon3}
-              className="w-8 object-contain"
+              className="max-w-[32px] object-scale-down"
               alt="Imagem de Localização"
             />
             <p>(11) 4040-5072</p>
           </div>
-          <div className="text-xl flex gap-2  lg:gap-12">
+          <div className="text-xl flex gap-2 items-center  lg:gap-12">
             <Image
               src={Icon2}
-              className="max-w-8 object-scale-down"
+              className="max-w-[32px] object-scale-down"
               alt="Imagem de E-mail"
             />
             <p className="lg:pr-10">comercial@wedesc.com.br</p>
           </div>
-          <div className="text-xl flex gap-2  lg:gap-12 mb-40">
+          <div className="text-xl flex gap-2 items-center  lg:gap-12 mb-40">
             <Image
               src={Icon}
-              className=" max-w-8 object-scale-down"
+              className=" max-w-[32px] object-scale-down"
               alt="Imagem de Telefone"
             />
             <p className="lg:pr-10">

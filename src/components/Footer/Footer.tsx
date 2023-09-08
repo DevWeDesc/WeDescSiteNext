@@ -47,7 +47,7 @@ export const Footer = () => {
           </div>
           <Image
             src={ImageLogoMobile}
-            className="object-contain py-8 w-[150px] block lg:hidden"
+            className="object-scale-down py-8 w-[150px] block lg:hidden"
             alt="Logo WeDesc"
           />
         </div>
