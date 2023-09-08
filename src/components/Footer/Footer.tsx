@@ -1,17 +1,18 @@
 import ImageLogo from "@/images/LogoWeDesc.png";
+import ImageLogoMobile from "@/images/image (2).png";
 import Image from "next/image";
 
 export const Footer = () => {
   return (
     <>
-      <div className="mt-40 border-t-[1px] border-b-[1px] py-10">
-        <div className="flex justify-evenly items-start">
+      <div className="justify-center bg-[#1B2D49] text-white lg:bg-white lg:text-black mt-40 border-t-[1px] border-b-[1px] py-10">
+        <div className="flex flex-col items-center text-center lg:text-start lg:flex-row justify-evenly lg:items-start">
           <Image
             src={ImageLogo}
-            className="object-contain w-[150px]"
+            className="object-contain w-[150px] hidden lg:block"
             alt="Logo WeDesc"
           />
-          <div className="flex flex-col text-[18px]">
+          <div className="w-full lg:w-auto gap-4 lg:gap-0 flex flex-col text-[18px]">
             {" "}
             <h3 className="text-2xl font-bold">Explorar</h3>
             <p>
@@ -38,17 +39,22 @@ export const Footer = () => {
               </a>
             </p>
           </div>
-          <div className="flex flex-col text-[18px]">
+          <div className="w-full gap-4 lg:gap-0 lg:w-auto mt-4 lg:mt-0 flex flex-col text-[18px]">
             {" "}
             <h3 className="text-2xl font-bold">Legal</h3>
             <p>Termos</p>
             <p>Politica de privacidade</p>
           </div>
+          <Image
+            src={ImageLogoMobile}
+            className="object-contain py-8 w-[150px] block lg:hidden"
+            alt="Logo WeDesc"
+          />
         </div>
+        <p className="text-center font-semibold lg:py-10 pb-5 text-[18px]">
+          Copyright © wedesc 2023. All rights reserved.
+        </p>
       </div>
-      <p className="text-center font-semibold py-10 pb-5 text-[18px]">
-        Copyright © wedesc 2023. All rights reserved.
-      </p>
     </>
   );
 };

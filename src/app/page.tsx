@@ -33,8 +33,8 @@ export default function Home() {
         <Coments />
         <Partners />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
     </motion.main>
   );
 }
