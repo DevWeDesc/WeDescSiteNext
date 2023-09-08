@@ -16,9 +16,9 @@ export const About = () => {
           <div className="z-[1] h-auto lg:h-auto hover:scale-105 transition-[10s] px-2 xl:px-6">
             <Image src={BoxImage} alt="Imagem de Sobre" />
           </div>
-          <div className="bg-white shadow-2xl z-[1] flex p-6 flex-col align-center text-center justify-center lg:text-left lg:align-right lg:p-8 lg:mx-3 rounded-[20px]">
-            <h2 className="text-4xl lg:text-[44px] text-center w-full justify-center font-bold flex lg:flex lg:justify-normal pb-4">
-              Sobre a<span style={{ marginRight: '10px' }}></span>
+          <div className="bg-white shadow-2xl z-[1] flex p-6 flex-col align-center  justify-center lg:text-left lg:align-right lg:p-8 lg:mx-3 rounded-[20px]">
+            <h2 className="text-4xl lg:text-[44px]  w-full  font-bold flex lg:flex lg:justify-normal pb-4">
+              Sobre a<span style={{ marginRight: "10px" }}></span>
               <h1> WeDesc</h1>
             </h2>
             <p>
@@ -37,7 +37,7 @@ export const About = () => {
               moldados pelas histórias de sucesso das empresas que ajudamos a
               impulsionar.
             </p>
-            <div id="Service"/>
+            <div id="Service" />
           </div>
         </div>
         {/* <Image
@@ -77,7 +77,7 @@ export const About = () => {
           className="z-[-2] hidden lg:block lg:pt-[2090px] absolute xl:pt-[2500px] 2xl:pt-[1280px] w-full "
           alt=""
         />
-                <Image
+        <Image
           src={Rectangle}
           className="z-[-2] hidden lg:block lg:pt-[3780px] absolute xl:hidden w-full "
           alt=""

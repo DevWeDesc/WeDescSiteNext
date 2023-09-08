@@ -11,7 +11,7 @@ export const DescriptionCarePlans = () => {
   return (
     <div className="flex flex-col relative mt-24 max-w-[1460px] m-auto lg:px-4 xl:p-0">
       <div className=" flex gap-5 flex-col items-center px-4 lg:text-center lg:text-white">
-        <h2 className="flex gap-10 text-3xl lg:items-center items-start lg:text-[56px] font-bold">
+        <h2 className="flex gap-10 text-4xl lg:items-center items-start lg:text-[56px] font-bold">
           Planos de atendimento{" "}
           <Image
             src={Rocket}
@@ -19,7 +19,7 @@ export const DescriptionCarePlans = () => {
             alt="Imagem de foguete"
           />
         </h2>
-        <p className="leading-9 lg:px-[145px]">
+        <p className="leading-8 lg:px-[145px]">
           As soluções tecnológicas carecem de acompanhamento preventivo e
           reativo, para que o seu trabalho não esteja sujeito a falhas. Ter o
           seu parque de equipamentos atualizado não é um detalhe na vida da sua
