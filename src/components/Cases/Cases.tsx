@@ -4,10 +4,10 @@ import CircularWithValueLabel from "../ValueProgress/ValueProgress";
 
 export const Cases = () => {
   return (
-    <div className=" w-full m-auto grid grid-cols-2 relative mt-[8%]">
-      <div className="bg-[#172554] flex flex-col items-center justify-center text-white">
+    <div className=" w-full m-auto grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 relative mt-[8%]">
+      <div className="bg-[#172554] flex flex-col items-center justify-center p-4 py-10 lg:p-0 text-white">
         <div className=" flex flex-col gap-3">
-          <h2 className="text-6xl font-bold">Nossas Cases</h2>
+          <h2 className=" text-4xl lg:text-6xl font-bold">Nossas Cases</h2>
           <h3 className="text-2xl text-gray-200">
             Parcerias que Impulsionam o Sucesso
           </h3>
@@ -21,7 +21,7 @@ export const Cases = () => {
             elevar negócios por meio da excelência tecnológica.
           </p>
         </div>
-        <div className="flex w-full pt-7">{<SwiperCase />}</div>
+        <div className="flex h-64 lg:h-[40%] w-full pt-7">{<SwiperCase />}</div>
       </div>
       <div className="bg-[#09001C] w-full flex flex-col h-[778px] items-center text-white justify-evenly">
         <div className="flex w-full justify-center items-center gap-4">

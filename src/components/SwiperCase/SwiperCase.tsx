@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "@/app/globals.css";
 import { Pagination, Navigation } from "swiper/modules";
+
 export const SwiperCase = () => {
   return (
     <Swiper
@@ -14,6 +15,7 @@ export const SwiperCase = () => {
       navigation={true}
       modules={[Pagination, Navigation]}
       color="white"
+      style={{ justifyContent: "center", alignItems: "center", height: "100%" }}
     >
       <SwiperSlide>
         <div className="h-full w-full bg-black border-[1px] border-[#0CC0DF]"></div>

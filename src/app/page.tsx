@@ -28,10 +28,10 @@ export default function Home() {
       <About />
       <CarePlans />
       <DescriptionCarePlans />
-      <div className="hidden lg:block">
-        <Cases />
-        <Coments />
-      </div>
+      {/* <div className="hidden lg:block"> */}
+      <Cases />
+      <Coments />
+      {/* </div> */}
       <Partners />
       <Contact />
       <Footer />

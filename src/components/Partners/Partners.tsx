@@ -11,7 +11,7 @@ const imagesMobile = [{ url: Parners2 }, { url: Parners1 }, { url: Parners3 }];
 
 export const Partners = () => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col z-10 bg-white items-center">
       <div className=" mt-24 mb-10">
         <div className="flex justify-center mb-2">
           <p className="h-[10px] rounded-full w-[120px] bg-black"></p>
