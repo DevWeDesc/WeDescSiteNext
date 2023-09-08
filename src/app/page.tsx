@@ -31,8 +31,8 @@ export default function Home() {
       <div className="hidden lg:block">
         <Cases />
         <Coments />
-        <Partners />
       </div>
+      <Partners />
       <Contact />
       <Footer />
     </motion.main>
