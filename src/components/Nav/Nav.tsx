@@ -62,7 +62,7 @@ export const Nav = ({ styleNav, setStyleNav }: PropsStyle) => {
         ))}
         <Li selected={selected} onClick={() => setSelected("Inicio")}>
           <a
-            href="https://we-desc.vercel.app/"
+            href="https://code.wedesc.com.br/"
             title="WeDesc Code"
             target="_blank"
           >

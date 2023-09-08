@@ -43,20 +43,15 @@ export default function SwiperPlans() {
   ];
 
   useEffect(() => {
-    // Verifica se o objeto `window` está disponível antes de usar
     if (typeof window !== "undefined") {
       const handleResize = () => {
         if (window.innerWidth < 428) {
-          setSlidesPerView(1); // Define apenas um slide por vez quando a largura da tela é menor que 428px
+          setSlidesPerView(1);
         } else {
-          setSlidesPerView(2); // Define dois slides por vez para larguras de tela maiores
+          setSlidesPerView(2);
         }
       };
-
-      // Adiciona um ouvinte de redimensionamento para atualizar as visualizações de slide com base na largura da tela
       window.addEventListener("resize", handleResize);
-
-      // Remove o ouvinte de redimensionamento quando o componente for desmontado
       return () => {
         window.removeEventListener("resize", handleResize);
       };

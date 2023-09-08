@@ -28,7 +28,7 @@ export const Services = () => {
           </p>
         </div>
       </div>
-      <div className="w-full lg:hidden">
+      <div className="w-full h-[900px] lg:hidden">
         <SwiperService />
       </div>
       <div className=" hidden lg:flex flex-wrap w-full lg:gap-[0px] mt-5 justify-between ">
