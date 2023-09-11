@@ -10,6 +10,8 @@ import { Header } from "@/components/Header/Header";
 import { Partners } from "@/components/Partners/Partners";
 import { SubHeader } from "@/components/SubHeader/SubHeader";
 import { motion } from "framer-motion";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
   return (
@@ -23,6 +25,18 @@ export default function Home() {
       }}
       className="w-full h-full"
     >
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <Header />
       <SubHeader />
       <About />
