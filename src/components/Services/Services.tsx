@@ -14,11 +14,11 @@ export const Services = () => {
   return (
     <div className="flex flex-col gap-7 relative pt-[50px] lg:pt-24 max-w-[1460px] lg:px-[24px] m-auto ">
       <div className="px-2 lg:px-0">
-        <h2 className="flex items-center justify-center text-5xl lg:text-[80px] font-bold lg:text-white  text-black">
+        <h2 className="flex items-center justify-center text-5xl lg:text-[80px] font-bold lg:text-white  text-white">
           Serviços <Image src={Rocket} alt="Imagem de Foguete" />
         </h2>
         <div className="flex justify-center">
-          <p className="lg:text-white px-4 lg:w-[990px]  text-black">
+          <p className="lg:text-white px-4 lg:w-[990px]  text-white">
             A Wedesc foi criada com base na ideologia de que podemos impactar
             significativamente o sucesso das empresas, tornando as soluções de
             tecnologia de disponíveis seguras e acessíveis. Somos um provedor de

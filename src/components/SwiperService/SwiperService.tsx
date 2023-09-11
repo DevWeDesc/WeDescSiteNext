@@ -42,7 +42,7 @@ export default function SwiperService() {
 
   return (
     <>
-      <div className=" h-full items-center w-full flex flex-col justify-center border-[4px] max-w-[100vw]  border-white rounded-[20px]">
+      <div className=" h-full items-center w-full flex flex-col justify-center max-w-[100vw]  ">
         <div className="w-full 2xl:max-w-[2235px] xl:max-w-[1100px]">
           <motion.div
             ref={carouselRef}

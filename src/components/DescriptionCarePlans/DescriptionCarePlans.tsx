@@ -10,7 +10,7 @@ import { CardPlans } from "../CardPlans/CardPlans";
 export const DescriptionCarePlans = () => {
   return (
     <div className="flex flex-col relative mt-24 h-auto lg:max-w-[1460px] m-auto lg:px-4 xl:p-0">
-      <div className=" flex gap-5 flex-col items-center px-4 lg:text-center lg:text-white">
+      <div className=" flex gap-5 flex-col items-center px-4 lg:text-center text-white">
         <h2 className="flex gap-10 text-4xl lg:items-center items-start lg:text-[56px] font-bold">
           Planos de atendimento{" "}
           <Image
