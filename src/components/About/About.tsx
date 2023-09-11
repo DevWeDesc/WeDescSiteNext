@@ -43,27 +43,27 @@ export const About = () => {
         <Image
           alt=""
           src={LineImage}
-          className="w-screen absolute pt-[1090px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[1020px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[1100px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[1040px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[2550px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[2600px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[4350px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[4500px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[6150px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[6250px] z-[-2] lg:hidden"
         ></Image>
 
         <Image
