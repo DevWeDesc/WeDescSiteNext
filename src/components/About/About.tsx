@@ -43,12 +43,12 @@ export const About = () => {
         <Image
           alt=""
           src={LineImage}
-          className="w-screen absolute pt-[1005px] z-[-2] lg:hidden"
+          className="w-screen absolute md:pt-[940px] pt-[1005px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[1025px] z-[-2] lg:hidden"
+          className="w-screen absolute md:pt-[960px] pt-[1025px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""

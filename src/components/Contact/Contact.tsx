@@ -5,7 +5,7 @@ import { Image } from "next/dist/client/image-component";
 
 export const Contact = () => {
   return (
-    <div className="lg:w-[100%] w-full xl-[80%] m-auto flex flex-col mt-20">
+    <div className="lg:w-[100%] bg-white w-full xl-[80%] m-auto flex flex-col pt-20">
       <div className="flex justify-center items-center gap-5 lg:py-10">
         <p className="w-[25%] h-[2px] bg-[#FECC09]"></p>
         <h2 className="text-4xl lg:text-5xl font-bold text-[#FECC09]">
@@ -53,7 +53,7 @@ export const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="w-[100px] h-[100px] 2xl:right-[47%] mt-[225%] z-[-1] lg:mt-[80px] rotate-45 bg-[#FECC09] absolute lg:right-[46.5%]"></div>
+        {/* <div className="w-[100px] h-[100px] 2xl:right-[47%] mt-[225%] z-[-1] lg:mt-[80px] rotate-45 bg-[#FECC09] absolute lg:right-[46.5%]"></div> */}
         <div className="max-w-full bg-[#FECC09] py-10 px-6 lg:p-20 flex flex-col gap-2">
           <p className="text-2xl">Nome:</p>
           <input
