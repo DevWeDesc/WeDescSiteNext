@@ -47,7 +47,7 @@ export const Nav = ({ styleNav, setStyleNav }: PropsStyle) => {
           : "fixed top-0 transition-all w-full sm:w-auto opacity-0 h-0 xl:opacity-100 xl:relative xl:right-0 xl:w-full xl:top-0 xl:h-full xl:backdrop-brightness-[200]"
       }
     >
-      <ul className="flex flex-col gap-10 items-center sm:justify-evenly lg:py-0 lg:justify-center lg:items-center lg:px-0 sm:py-56  sm:items-start sm:px-10 justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
+      <ul className="flex flex-col gap-10 items-center sm:justify-evenly xl:py-0 xl:justify-center xl:items-center xl:px-0 sm:py-56  sm:items-start sm:px-10 justify-center h-full w-full xl:flex-row xl:gap-7 xl:relative ">
         {Links.map((link, index) => (
           <Li
             Ref={link.Ref}

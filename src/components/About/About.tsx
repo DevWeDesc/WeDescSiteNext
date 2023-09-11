@@ -4,8 +4,8 @@ import lineService from "@/images/Vector 10.png";
 import Rectangle from "@/images/Rectangle 42.png";
 import Image from "next/image";
 import { Services } from "../Services/Services";
-// import ImageMobile from "@/images/Rectangle 42 (1).png";
-// import LineImage from "@/images/Vector 10 (2).png";
+import ImageMobile from "@/images/Rectangle 42 (1).png";
+import LineImage from "@/images/Vector 10 (2).png";
 
 export const About = () => {
   return (
@@ -40,26 +40,31 @@ export const About = () => {
             <div id="Service" />
           </div>
         </div>
-        {/* <Image
+        <Image
           alt=""
           src={LineImage}
-          className="w-full absolute pt-[945px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[930px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="absolute pt-[9px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[939px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
-          className="absolute pt-[2750px] z-[-2] lg:hidden"
+          className="absolute pt-[2850px] z-[-2] lg:hidden"
         ></Image>
         <Image
           alt=""
           src={ImageMobile}
           className="absolute pt-[4550px] z-[-2] lg:hidden"
-        ></Image> */}
+        ></Image>
+        <Image
+          alt=""
+          src={ImageMobile}
+          className="absolute pt-[6250px] z-[-2] lg:hidden"
+        ></Image>
 
         <Image
           src={lineService}
