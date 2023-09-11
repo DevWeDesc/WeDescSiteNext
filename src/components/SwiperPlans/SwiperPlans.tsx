@@ -74,7 +74,7 @@ export default function SwiperPlans() {
             clickable: true,
           }}
           modules={[FreeMode, Pagination, Virtual, Navigation]}
-          className="px-2 pb-10"
+          className=" px-2 pb-10"
           navigation={true}
         >
           {images.map((info, index) => (
