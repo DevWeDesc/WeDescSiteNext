@@ -20,25 +20,25 @@ export default function SwiperPlans() {
       title: "Gerenciado e Remoto",
       imgPath: Rocket1,
       description:
-        "A Wedesc oferece serviços de gerenciamento remoto que atendem empresas de todos os tamanhos. Isso inclui atendimento rápido, serviços gerenciados essenciais, suporte contínuo e proteção contra ameaças digitais. Deixe-nos cuidar da sua tecnologia enquanto você concentra seus esforços em seus negócios.",
+        "A WeDesc oferece serviços de gerenciamento remoto que atendem empresas de todos os tamanhos. Isso inclui atendimento rápido, serviços gerenciados essenciais, suporte contínuo e proteção contra ameaças digitais. Deixe-nos cuidar da sua tecnologia enquanto você concentra seus esforços em seus negócios.",
     },
     {
       title: "Full Service",
       imgPath: Rocket2,
       description:
-        "Com foco nas empresas a partir de 40 funcionários, a Wedesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
+        "Com foco nas empresas a partir de 40 funcionários, a WeDesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
     },
     {
       title: "Full Service",
       imgPath: Rocket2,
       description:
-        "Com foco nas empresas a partir de 40 funcionários, a Wedesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
+        "Com foco nas empresas a partir de 40 funcionários, a WeDesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
     },
     {
       title: "Gerenciado e Remoto",
       imgPath: Rocket1,
       description:
-        "A Wedesc oferece serviços de gerenciamento remoto que atendem empresas de todos os tamanhos. Isso inclui atendimento rápido, serviços gerenciados essenciais, suporte contínuo e proteção contra ameaças digitais. Deixe-nos cuidar da sua tecnologia enquanto você concentra seus esforços em seus negócios.",
+        "A WeDesc oferece serviços de gerenciamento remoto que atendem empresas de todos os tamanhos. Isso inclui atendimento rápido, serviços gerenciados essenciais, suporte contínuo e proteção contra ameaças digitais. Deixe-nos cuidar da sua tecnologia enquanto você concentra seus esforços em seus negócios.",
     },
   ];
 

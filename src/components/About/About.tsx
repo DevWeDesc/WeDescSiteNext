@@ -22,7 +22,7 @@ export const About = () => {
               <h1> WeDesc</h1>
             </h2>
             <p>
-              Na Wedesc, nossa jornada é um compromisso contínuo em moldar o
+              Na WeDesc, nossa jornada é um compromisso contínuo em moldar o
               sucesso das empresas por meio da tecnologia. Desde o início,
               acreditamos no poder transformador da inovação e do
               comprometimento. Começamos como um sonho de proporcionar soluções
@@ -30,7 +30,7 @@ export const About = () => {
               anos, esse sonho se transformou em realidade, à medida que
               construímos parcerias duradouras com empresas de todos os
               tamanhos. Nossa equipe apaixonada e dedicada é o coração da
-              Wedesc. Com vasta experiência e um olhar atento para as
+              WeDesc. Com vasta experiência e um olhar atento para as
               tendências, estamos sempre prontos para enfrentar os desafios
               tecnológicos em evolução. Cada etapa da nossa história foi marcada
               por momentos de crescimento, aprendizado e inovação. Fomos

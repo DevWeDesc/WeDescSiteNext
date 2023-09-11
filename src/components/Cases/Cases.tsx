@@ -13,7 +13,7 @@ export const Cases = () => {
           </h3>
 
           <p className="max-w-[569px] mt-5 text-gray-200">
-            Na Wedesc, não medimos nosso sucesso apenas pelas soluções que
+            Na WeDesc, não medimos nosso sucesso apenas pelas soluções que
             oferecemos, mas pelo impacto que causamos nas empresas que servimos.
             Conheça algumas das histórias de sucesso que construímos juntos,
             onde a tecnologia se tornou a força motriz de crescimento,

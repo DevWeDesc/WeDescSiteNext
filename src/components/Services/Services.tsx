@@ -19,7 +19,7 @@ export const Services = () => {
         </h2>
         <div className="flex justify-center">
           <p className="lg:text-white px-4 lg:w-[990px]  text-white">
-            A Wedesc foi criada com base na ideologia de que podemos impactar
+            A WeDesc foi criada com base na ideologia de que podemos impactar
             significativamente o sucesso das empresas, tornando as soluções de
             tecnologia de disponíveis seguras e acessíveis. Somos um provedor de
             serviços de TI Full Service focados em entender as necessidades e
