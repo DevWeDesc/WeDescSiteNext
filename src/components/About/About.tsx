@@ -63,8 +63,13 @@ export const About = () => {
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[6050px] z-[-2] lg:hidden"
-        ></Image>
+          className="w-screen absolute pt-[5850px] z-[-2] lg:hidden"
+        />
+        <Image
+          alt=""
+          src={ImageMobile}
+          className="w-screen absolute pt-[6550px] z-[-2] lg:hidden"
+        />
 
         <Image
           src={lineService}
