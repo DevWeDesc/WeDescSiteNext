@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Logo from "@/images/LogoWeDesc.png";
+import Logo from "@/images/Logo-WeDesc-2.png";
 import { Nav } from "../Nav/Nav";
 import Search from "@/images/Vector (9).png";
 import Menu from "@/images/Mask group.png";
@@ -20,7 +20,11 @@ export const Header = () => {
             />
           </div>
           <div>
-            <Image className="lg:h-7" src={Logo} alt="Logo WeDesc" />
+            <Image
+              className="object-cover w-36 h-auto"
+              src={Logo}
+              alt="Logo WeDesc"
+            />
           </div>
           <div>
             <Image className="xl:hidden" src={Search} alt="" />

@@ -1,4 +1,4 @@
-import ImageLogo from "@/images/LogoWeDesc.png";
+import ImageLogo from "@/images/Logo-WeDesc-2.png";
 import ImageLogoMobile from "@/images/image (2).png";
 import Image from "next/image";
 
