@@ -63,7 +63,7 @@ export const About = () => {
         <Image
           alt=""
           src={ImageMobile}
-          className="w-screen absolute pt-[6250px] z-[-2] lg:hidden"
+          className="w-screen absolute pt-[6050px] z-[-2] lg:hidden"
         ></Image>
 
         <Image
